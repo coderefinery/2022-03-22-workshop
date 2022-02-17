@@ -4,10 +4,10 @@ This repository is a template to set up webpages for CodeRefinery
 workshops, and has coordination of roles.
 
 
-
 ## Quick reference
 
-- ...
+- Workshop page: https://coderefinery.github.io/2022-03-22-workshop/
+- Planning document: https://hackmd.io/@coderefinery/2022-march-planning
 
 
 ## How to generate your workshop repository
