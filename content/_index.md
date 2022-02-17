@@ -5,7 +5,7 @@ title = "Schedule"
 <div class="alert alert-info">
 <span style="color:darkred;font-weight:bold">News:</span>
 
-* Registration will open soon.
+* You can help us with announcing the workshop to your colleagues and friends and also by recruiting helpers/ exercise leads who help us to scale.
 
 </div>
 
