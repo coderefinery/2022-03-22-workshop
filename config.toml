@@ -2,9 +2,9 @@
 
 # this variable has to be set but it is not used
 # inside the templates (end in '/')
-base_url = "https://coderefinery.github.io/template-workshop-webpage/"
+base_url = "https://coderefinery.github.io/2022-03-22-workshop/"
 
-title = "Replace this title in config.toml"
+title = "CodeRefinery workshop March 22-24 and 29-31, 2022"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = false
@@ -44,7 +44,7 @@ logos = [
 
 # adapt this
 registration_link = "https://example.org"
-source_repo = "https://github.com/coderefinery/template-workshop-webpage"
+source_repo = "https://github.com/coderefinery/2022-03-22-workshop"
 
 # uncomment as soon as registration opens
 # registration_is_open = true
