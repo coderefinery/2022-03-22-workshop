@@ -44,16 +44,16 @@ The workshop will be held online.
 ## Schedule
 
 All times are in **Europe/Stockholm time (CEST)**. ([Convert 9:00 to
-your timezone](https://arewemeetingyet.com/Stockholm/2021-05-10/09:00))
+your timezone](https://arewemeetingyet.com/Stockholm/2022-03-22/09:00))
 The schedule includes frequent breaks.
 
 **Exercise leader onboarding**
-- TBA (Wednesday) 12:00-13:00 CET ([timezone converter](https://arewemeetingyet.com/Stockholm/2021-05-05/12:00))
-- TBA (Thursday) 12:00-13:00 CET] ([timezone converter](https://arewemeetingyet.com/Stockholm/2021-05-06/12:00))
+- March 16 (Wednesday) 12:00-13:00 CET ([timezone converter](https://arewemeetingyet.com/Stockholm/2022-03-16/12:00))
+- March 17 (Thursday) 12:00-13:00 CET] ([timezone converter](https://arewemeetingyet.com/Stockholm/2022-03-17/12:00))
 
 **Installation help and verification times** (drop in)
-- TBA (Wednesday) 13:00-14:00 CET] ([timezone converter](https://arewemeetingyet.com/Stockholm/2021-05-05/13:00))
-- TBA (Thursday) 13:00-14:00 CET   ([timezone converter](https://arewemeetingyet.com/Stockholm/2021-05-06/13:00))
+- March 16 (Wednesday) 13:00-14:00 CET] ([timezone converter](https://arewemeetingyet.com/Stockholm/2022-03-16/13:00))
+- March 17 (Thursday) 13:00-14:00 CET   ([timezone converter](https://arewemeetingyet.com/Stockholm/2022-03-17/13:00))
 
 **Day 1 (Tuesday, March 22)**
 - 8:50 - 9:00 connecting time, icebreaker
