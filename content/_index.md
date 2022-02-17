@@ -61,13 +61,13 @@ The schedule includes frequent breaks.
   [Welcome and practical information](https://github.com/coderefinery/workshop-intro/blob/master/README.md)
   (TBA)
 - 9:20 - 12:30
-  [Introduction to version control - part 1/2](https://coderefinery.github.io/git-intro/) ("Motivation" to "Undoing")
+  [Introduction to version control - part 1/2](https://coderefinery.github.io/git-intro/)
   (TBA)
 
 **Day 2 (Wednesday, March 23)**
 - 8:50 - 9:00 connecting time, icebreaker
 - 9:00 - 12:30
-  [Introduction to version control - part 2/2](https://coderefinery.github.io/git-intro/) ("Branching and merging" to "Inspecting history")
+  [Introduction to version control - part 2/2](https://coderefinery.github.io/git-intro/)
   (TBA)
 
 **Day 3 (Thursday, March 24)**
