@@ -114,19 +114,22 @@ The schedule includes frequent breaks.
 
 - <support@coderefinery.org>
 
+
 #### Coordinators
 
-- TBA
+- Radovan Bast
 
 
 #### Host
 
-- TBA
+- Radovan Bast
 
 
 #### Instructors and expert helpers
 
+- Radovan Bast
 - TBA
+
 
 #### Exercise leaders :heart:
 
