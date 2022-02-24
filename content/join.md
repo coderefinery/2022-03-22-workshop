@@ -4,13 +4,20 @@ title = "How to join"
 
 ## How to join
 
-We are normally limited by number of expert helpers and individual exercise leaders, thus we have two options:
+We are normally limited by number of expert helpers and individual
+exercise leaders, so we use a livestream to reach more people.  Anyone
+may watch the livestream (<https://twitch.tv/coderefinery>), and we
+have Zoom for breakout sessions up to our capacity.  Some partners may
+even host in-person breakout rooms.  Read more about [how to attend a
+livestream
+course](https://coderefinery.github.io/manuals/how-to-attend-stream/).
 
-### Zoom registration
+### Attend via livestream + Zoom
 
-In Zoom, we group attendees into teams, with an exercise leader.  This
-is a very interactive workshop.
+In Zoom, we group attendees into teams, with an exercise leader and
+help from our expert helpers.  This is a very interactive workshop.
 
+- Register as type **Learner** or **Exercise leader**
 - Anyone may register as a learner, we will try to take as many as we can.
 - Complete teams are preferred: one exercise leader and 4-6 learners:
   - Everyone on the team must register separately.
@@ -24,9 +31,11 @@ is a very interactive workshop.
     and prepare for the future together. If you will work together later,
     learning the tools at the same time is a great way to do it.
 - If you routinely use Git and know Python somewhat well or you've been to
-  a CodeRefinery before, you are definitely capable of being an exercise leader and register as one!
+  a CodeRefinery before, you are definitely capable of being an exercise leader!
 
-### Attend via live stream
+### Attend via livestream only
+
+- Register as type **Livestream only**
 
 The promise of the Internet is that we can reach everyone, so why
 don't we?  So, we have a live stream
@@ -35,12 +44,13 @@ that anyone may attend
 the workshop, even if we don't have resources to provide interactive
 breakout rooms.  The live stream option is also good if you want to
 passively see what we are talking about, but don't want to take an
-interactive Zoom seat.
+interactive Zoom seat.  **Please register anyway so that you can get
+emails and we can report our impact**, but you do not have to.
 
-Breakout rooms are not streamed, you'll do exercises by yourself.
-We'll often go over the exercises on stream, though.  You *will* be
-able to ask us questions, and we recommend that you form your own team and do
-exercises together.  We will support this as much as we can!
+**We recommend that you form your own team and do
+exercises together in your own breakout room (in-person or online)**.
+We will support this as much as we can!  You *will* be
+able to ask us questions if you register.
 
 
 
