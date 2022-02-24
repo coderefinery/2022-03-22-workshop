@@ -40,6 +40,23 @@ The workshop will be held online.
 **Before signing** up please also read
 [this privacy note about tools/services we use](requirements/#privacy-and-tools-online-services).
 
+## Partners
+
+These partners offer local support, such as breakout rooms, to their
+local groups.  [Become a
+partner](https://coderefinery.org/organization/partners/) to support
+your community!
+
+- [**Aalto University**](https://scicomp.aalto.fi/): Local in-person breakout
+  room, possibility of credit points to those in Finland (info to
+  registered participants, register on the main form).
+- **TU Delft**: PhD candidates can receive graduate school credits. ([TU
+  Delft registration](https://www.tudelft.nl/library/research-data-management/r/training-evenementen/training-voor-onderzoekers/coderefinery-workshop))
+
+## Credits
+
+CodeRefinery is not currently planning on offering certificates to
+this workshop.  However, certain partners may, see above.
 
 ## Schedule
 
