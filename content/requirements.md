@@ -25,7 +25,7 @@ title = "Prerequisites and software requirements"
   [video](https://www.youtube.com/watch?v=WdDTp8NeHBs&t=258s).
 
 
-## Privacy and tools/ online services
+## Privacy and tools/online services
 
 In Coderefinery, we try to teach you tools that we see being used in the
 research world and tools we consider important. This sometimes leads to
