@@ -84,7 +84,11 @@ to help or there is something else we can do, please get in touch.
   there are a *lot* of questions, so don't let it distract you from
   the main lecture.
 * Lesson websites/HackMD use standard web technologies, so that
-  browser accessibility plugins can be used.
+  browser accessibility plugins can be used (for example making the
+  font more accessible, check browser extensions).
+* Twitch can be live-captioned using the Google Chrome browser.
+* You can follow along without providing any personal data
+  (registration, Twitch works with cookies blocked).
 * We have figures in some lessons which are somewhat important,
   without good alt text.  We are working on this, contributions
   welcome.
