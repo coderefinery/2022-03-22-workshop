@@ -53,9 +53,16 @@ your community!
 
 - [**Aalto University**](https://scicomp.aalto.fi/): Local in-person breakout
   room, possibility of credit points to those in Finland (info to
-  registered participants, register on the main form).
+  registered participants, register on the main form as "livestream
+  only" to attend the in-person room).
 - **TU Delft**: PhD candidates can receive graduate school credits. ([TU
   Delft registration](https://www.tudelft.nl/library/research-data-management/r/training-evenementen/training-voor-onderzoekers/coderefinery-workshop))
+
+Other CodeRefinery partners include [ENCCS](https://enccs.se/) (SE),
+[CSC](https://csc.fi) (FI), [DeiC](https://www.deic.dk/) (DK), [UNINETT
+Sigma2](https://www.sigma2.no/) (NO), [SNIC](https://snic.se/) (SE),
+Type 1 Consortium for Interactive HPC (DK), and
+[USIT, UiO](https://www.usit.uio.no/) (NO).
 
 ## Credits
 
