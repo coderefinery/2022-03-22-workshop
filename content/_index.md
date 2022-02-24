@@ -43,8 +43,11 @@ The workshop will be held online.
 
 ## Schedule
 
-All times are in **Europe/Stockholm time (CEST)**. ([Convert 9:00 to
-your timezone](https://arewemeetingyet.com/Stockholm/2022-03-22/09:00))
+All times are in **Europe/Stockholm time (CET/CEST)**. (Convert 9:00 to
+your timezone: [first
+week](https://arewemeetingyet.com/Stockholm/2022-03-22/09:00), [second
+week](https://arewemeetingyet.com/Stockholm/2022-03-29/09:00) - note
+that Europe summer time starts between the weeks)
 The schedule includes frequent breaks.
 
 **Exercise leader onboarding**
