@@ -82,7 +82,7 @@ the possibly of centrally organized teams and a bit more help.
     and see their demos, there is probably no point.  (Note that Zoom
     is still useful in the physical room for screensharing with each
     other).
-- **I want to make my a team on my own, do I need to register?  Does
+- **I want to make my team on my own, do I need to register?  Does
   everyone on the team need to register?**
   - Technically you don't have to, if you carefully check the website
     for news.
@@ -90,7 +90,7 @@ the possibly of centrally organized teams and a bit more help.
     Also, the team gets emails direct from us and the HackMD links to
     ask questions.
 - **I'm an organization or group, I want to sponsor my community's teams!**
-  - Great!  You can do this with our without communicating with us.
+  - Great!  You can do this with or without communicating with us.
     Feel free to just make your own registration form and manage it if
     you want.  Or talk with us organize them in our central Zoom.
     [Read more about local breakout
