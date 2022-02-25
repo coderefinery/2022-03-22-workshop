@@ -92,7 +92,7 @@ the possibly of centrally organized teams and a bit more help.
 - **I'm an organization or group, I want to sponsor my community's teams!**
   - Great!  You can do this with or without communicating with us.
     Feel free to just make your own registration form and manage it if
-    you want.  Or talk with us organize them in our central Zoom.
+    you want.  Or talk with us organize them as part of our centrally organized Zoom.
     [Read more about local breakout
     rooms](https://coderefinery.github.io/manuals/local-breakout-rooms/)
     and [contact us](https://coderefinery.github.io/manuals/chat/).
