@@ -74,7 +74,7 @@ the possibly of centrally organized teams and a bit more help.
     Zoom or in-person room): `Livestream only`.  The coordinator can
     still join our CodeRefinery chat and interact with us.
   - The coordinator could register on behalf of your team and forward
-    information to the others.
+    information to the others (but it's nice if everyone registers, see below).
 - **My complete team will work together in a physical room, is there
   any point to joining your Zoom?**
   - Expert helpers will drop by the Zoom breakout room and ask if
