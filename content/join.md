@@ -61,10 +61,11 @@ Collaboration](https://neic.no/).
 
 When we have more sign-ups as **individual learners** than our capacity allows, the following priority criteria apply:
 
-1. National universities or research institutes in Nordic countries and Estonia
-2. Private companies and government agencies in Nordic countries or Estonia
-3. European national universities or research institutes from outside the Nordics.
-4. Others
+1. Partner universities
+2. National universities or research institutes in Nordic countries and Estonia
+3. Private companies and government agencies in Nordic countries or Estonia
+4. European national universities or research institutes from outside the Nordics.
+5. Others
 
 Therefore it is very important that you use an email address
 corresponding to your affiliation.  If you aren't accepted to the Zoom
