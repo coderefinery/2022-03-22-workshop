@@ -28,16 +28,16 @@ confident in the material, you can [register as an exercise
 leader](volunteer/).
 
 The workshop will be held online, see options at [how to
-joining](join/).
+join](join/):
 
 * Everyone watches the main teaching via a livestream at
   <https://twitch.tv/coderefinery>.  If you
   register, you can get emails and link to ask questions.
 
-* You can also register to attend Zoom breakout rooms (limited
-  places).  Please only register for Zoom if you want to actively take
-  part in the exercises; we will arrange participants into small
-  interactive breakout rooms.
+* You can also register to attend our Zoom breakout rooms (limited
+  places), and you will be placed into a small, interactive breakout
+  room.  Please only register for Zoom if you want to actively take
+  part in the exercises. ([read more](join/))
 
 * Some partners offer in-person breakout rooms and help, see below.
 
