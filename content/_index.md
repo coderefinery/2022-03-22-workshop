@@ -149,17 +149,23 @@ The schedule includes frequent breaks.
 #### Coordinators
 
 - Radovan Bast
-
-
-#### Host
-
-- Radovan Bast
+- Richard Darst
+- Enrico Glerean
 
 
 #### Instructors and expert helpers
 
 - Radovan Bast
-- TBA
+- Richard Darst
+- Enrico Glerean
+- Luca Ferranti
+- Johan Hellsvik
+- Diana Iusan
+- Jarno Rantaharju
+- Sabry Razick
+- Thor Wikfeldt
+- Samantha Wittke
+- and you?
 
 
 #### Exercise leaders :heart:
