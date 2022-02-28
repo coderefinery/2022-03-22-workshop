@@ -51,10 +51,10 @@ local groups.  [Become a
 partner](https://coderefinery.org/organization/partners/) to support
 your community!
 
-- [**Aalto University**](https://scicomp.aalto.fi/): Local in-person breakout
-  room, possibility of credit points to those in Finland (info to
-  registered participants, register on the main form as "livestream
-  only" to attend the in-person room).
+- [**Aalto University**](https://scicomp.aalto.fi/): Local in-person
+  breakout room, possibility of credit points to those in Finland.
+  (register on the main form as "type=livestream only" and "OK to give your
+  contact detail to a breakout room organizer? = yes").
 - **TU Delft**: PhD candidates can receive graduate school credits. ([TU
   Delft registration](https://www.tudelft.nl/library/research-data-management/r/training-evenementen/training-voor-onderzoekers/coderefinery-workshop))
 
