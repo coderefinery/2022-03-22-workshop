@@ -95,19 +95,19 @@ The schedule includes frequent breaks.
   (TBA)
 - 9:20 - 12:30
   [Introduction to version control - part 1/2](https://coderefinery.github.io/git-intro/)
-  (TBA)
+  (Diana and Radovan)
 
 **Day 2 (Wednesday, March 23)**
 - 8:50 - 9:00 connecting time, icebreaker
 - 9:00 - 12:30
   [Introduction to version control - part 2/2](https://coderefinery.github.io/git-intro/)
-  (TBA)
+  (Diana and Radovan)
 
 **Day 3 (Thursday, March 24)**
 - 8:50 - 9:00 connecting time, icebreaker
 - 9:00 - 12:30
   [Collaborative distributed version control](https://coderefinery.github.io/git-collaborative/)
-  (TBA)
+  (Jarno and Radovan)
 
 **Day 4 (Tuesday, March 29)**
 - 8:50 - 9:00 connecting time, icebreaker
@@ -116,28 +116,28 @@ The schedule includes frequent breaks.
   (TBA)
 - 9:00 - 11:15
   [Reproducible research and FAIR data](https://coderefinery.github.io/reproducible-research/)
-  (TBA)
+  (Thor and Samantha)
 - 11:15 - 12:30
   [Social coding and open software](https://coderefinery.github.io/social-coding/)
-  (TBA)
+  (Richard and Sabry)
 
 **Day 5 (Wednesday, March 30)**
 - 8:50 - 9:00 connecting time, icebreaker
 - 9:00 - 10:45
   [Jupyter](https://coderefinery.github.io/jupyter/)
-  (TBA)
+  (Thor and Johan)
 - 10:45 - 12:30
   [Documentation](https://coderefinery.github.io/documentation/)
-  (TBA)
+  (Jarno and Samantha)
 
 **Day 6 (Thursday, March 31)**
 - 8:50 - 9:00 connecting time, icebreaker
 - 9:00 - 10:45
   [Software testing](https://coderefinery.github.io/testing/)
-  (TBA)
+  (Richard, Johan, and Luca)
 - 11:00 - 12:15
   [Modular code development](https://coderefinery.github.io/modular-type-along/)
-  (TBA)
+  (Luca and Radovan)
 - 12:15 - 12:30
   [Concluding remarks and where to go from here](https://github.com/coderefinery/workshop-outro/blob/master/README.md)
   (TBA)
