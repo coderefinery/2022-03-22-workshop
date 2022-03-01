@@ -26,6 +26,10 @@ learn things as well).  If you have been to a CodeRefinery before, you
 are definitely qualified.  Your job is more to guide people and try to
 read error messages than solve every problem.
 
+**You don't have to be located in the Nordics** We welcome volunteers from
+institutions also outside the Nordics because volunteer exercise leaders help
+us to reach more people.
+
 **Am I good enough to be a exercise leader?**  If you are asking this
 question, probably you are.  You should have some familiarity with
 git, provide some initial advice on obvious error messages, and
