@@ -10,7 +10,7 @@ software development tools, which are often missed in other coursework.
 This is a big task, but together with our volunteer exercise leaders,
 we can do it.
 
-Volunteer to be an **exercise leader** at CodeRefienry, and you will:
+Volunteer to be an **exercise leader** at CodeRefinery, and you will:
 - Mentor and provide positive encouragement for your team; guide them
   through the workshop.
 - Attend our quick exercise leader training (one hour, see schedule)
@@ -38,7 +38,6 @@ form has an option for "Exercise leader".
 mentor, register as part of a team.  First off, if a team has an
 exercise leader, it will almost certainly be accepted.  Second, working
 together makes it much more likely to have a lasting effect in your group.
-
 
 
 ### See also
