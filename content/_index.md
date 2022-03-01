@@ -37,7 +37,7 @@ join](join/):
 * You can also register to attend our Zoom breakout rooms (limited
   places), and you will be placed into a small, interactive breakout
   room.  Please only register for Zoom if you want to actively take
-  part in the exercises. ([read more](join/))
+  part in the exercises ([read more](join/)).
 
 * Some partners offer in-person breakout rooms and help, see below.
 
