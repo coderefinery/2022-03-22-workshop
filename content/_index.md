@@ -5,7 +5,11 @@ title = "Schedule"
 <div class="alert alert-info">
 <span style="color:darkred;font-weight:bold">News:</span>
 
-* You can help us with announcing the workshop to your colleagues and friends and also by recruiting helpers/ exercise leads who help us to scale.
+- We have started confirming registrations but this takes few days since we
+  sometimes need to email back and forth to double-check certain choices.
+  If you haven't received a confirmation yet, we will follow up also on your
+  registration.
+- You can help us with announcing the workshop to your colleagues and friends and also by recruiting helpers/ exercise leads who help us to scale.
 
 </div>
 
