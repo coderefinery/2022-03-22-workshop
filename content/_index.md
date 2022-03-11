@@ -70,10 +70,10 @@ Sigma2](https://www.sigma2.no/) (NO), [SNIC](https://snic.se/) (SE),
 Type 1 Consortium for Interactive HPC (DK), and
 [USIT, UiO](https://www.usit.uio.no/) (NO).
 
-## Credits
+## Certificates and Credits
 
-CodeRefinery is not currently planning on offering certificates to
-this workshop.  However, certain partners may, see above.
+CodeRefinery does not offer certificates for completing workshop.
+However, certain partners may, see above.
 
 ## Schedule
 
