@@ -70,7 +70,7 @@ Sigma2](https://www.sigma2.no/) (NO), [SNIC](https://snic.se/) (SE),
 Type 1 Consortium for Interactive HPC (DK), and
 [USIT, UiO](https://www.usit.uio.no/) (NO).
 
-## Certificates and Credits
+## Certificates and credits
 
 We currently cannot offer attendance certificates or certificates for completing the workshop.
 
