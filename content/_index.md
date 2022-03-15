@@ -183,4 +183,23 @@ The schedule includes frequent breaks.
 
 [Be an exercise leader](volunteer/).
 
-- TBA
+- Niket Agrawal
+- Heather Andrews
+- Thomas Arildsen
+- Lora Armstrong
+- Susan Branchett
+- Romain Caneill
+- Abel Carreras
+- Björn Claremar
+- Juan Sebastian Diaz Boada
+- Marco Foscato
+- Manuel Garcia Alvarez
+- Niharika Gauraha
+- Toby Hodges
+- Maurits Kok
+- Jose Carlos Llanusa
+- Pedro Ojeda
+- Dhanya Pushpadas
+- Stephan Smuts
+- Ingrid Strandberg
+- Aleksandra Wilczynska
