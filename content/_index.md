@@ -121,7 +121,7 @@ The schedule includes frequent breaks.
 **Day 4 (Tuesday, March 29)**
 - 8:50 - 9:00 connecting time, icebreaker
 - 9:00 - 9:15
-  [Mini-intro](https://github.com/coderefinery/workshop-intro/blob/master/README.md)
+  [Second week intro](https://github.com/coderefinery/workshop-intro/blob/master/README.md)
   (Radovan)
 - 9:00 - 11:15
   [Reproducible research and FAIR data](https://coderefinery.github.io/reproducible-research/)
