@@ -184,6 +184,7 @@ The schedule includes frequent breaks.
 [Be an exercise leader](volunteer/).
 
 - Niket Agrawal
+- Inigo Aldazabal
 - Heather Andrews
 - Thomas Arildsen
 - Lora Armstrong
