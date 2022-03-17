@@ -194,6 +194,7 @@ The schedule includes frequent breaks.
 - Marco Foscato
 - Manuel Garcia Alvarez
 - Niharika Gauraha
+- Agneta Ghose
 - Toby Hodges
 - Maurits Kok
 - Jose Carlos Llanusa
