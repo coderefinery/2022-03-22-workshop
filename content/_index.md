@@ -197,6 +197,7 @@ The schedule includes frequent breaks.
 - Agneta Ghose
 - Toby Hodges
 - Maurits Kok
+- Bjørn Lindi
 - Jose Carlos Llanusa
 - Pedro Ojeda
 - Dhanya Pushpadas
