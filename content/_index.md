@@ -167,6 +167,7 @@ The schedule includes frequent breaks.
 - Luca Ferranti
 - Johan Hellsvik
 - Diana Iusan
+- Bjørn Lindi
 - Jarno Rantaharju
 - Sabry Razick
 - Thor Wikfeldt
