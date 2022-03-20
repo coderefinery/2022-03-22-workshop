@@ -5,10 +5,7 @@ title = "Schedule"
 <div class="alert alert-info">
 <span style="color:darkred;font-weight:bold">News:</span>
 
-- We will keep the registration open but from here on all registrations will be
-  via live-stream since we cannot change Zoom exercise groups
-  at the last minute. Registrants will be able to follow the whole workshop
-  and will be able to ask questions.
+- Registration closed.
 </div>
 
 ## Course goals
