@@ -50,4 +50,4 @@ source_repo = "https://github.com/coderefinery/2022-03-22-workshop"
 registration_is_open = true
 
 # uncomment as soon as registration closes
-# registration_is_closed = true
+registration_is_closed = true
