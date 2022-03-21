@@ -5,7 +5,8 @@ title = "Schedule"
 <div class="alert alert-info">
 <span style="color:darkred;font-weight:bold">News:</span>
 
-- Registration closed.
+- Registration closed, but that doesn't mean you can't attend.  Anyone
+can follow us on https://twitch.tv/coderefinery/
 </div>
 
 ## Course goals
