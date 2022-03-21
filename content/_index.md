@@ -5,7 +5,8 @@ title = "Schedule"
 <div class="alert alert-info">
 <span style="color:darkred;font-weight:bold">News:</span>
 
-- Registration closed.
+- Anyone can follow the workshop on https://twitch.tv/coderefinery/ but please do register anyway to "live stream"
+  as this makes it easier for us to report to our funders on how many learners we reach.
 </div>
 
 ## Course goals
