@@ -141,7 +141,8 @@ The schedule includes frequent breaks.
 ## Certificates and credits
 
 It is possible to obtain a certificate from the course with a little extra work. 
-Please note that this does not apply to participants affiliated with TU Delft.
+Please note that this does not apply to participants affiliated with TU Delft
+who have own criteria for workshop certificates and credits.
 
 To obtain a certificate, we expect you to follow the 6 days of the course and provide us with the following three documents via email:
 
