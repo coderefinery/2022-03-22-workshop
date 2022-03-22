@@ -6,7 +6,22 @@ title = "Schedule"
 <span style="color:darkred;font-weight:bold">News:</span>
 
 - Anyone can follow the workshop on https://twitch.tv/coderefinery/ but please do register anyway to "live stream"
-  as this makes it easier for us to report to our funders on how many learners we reach.
+  as this makes it easier for us to report to our funders on how many
+  learners we reach.
+- Day 1 news:
+  - We went up to "conflict resolution" in git-intro.  You might want
+    to edit that some.
+  - Tomorrow we use GitHub, so pay attention to installation
+    instructions (in particular GitHub and `ssh`).
+  - See you tomorrow at xx:50!
+- HackMD are posted to [the Q&A page](questions/) after a few hours
+  with additional clarifications.
+- Workshop videos
+  - Immediately (for 14 days only, unprocessed) [on Twitch](https://www.twitch.tv/coderefinery/videos/)
+  - By the same evening in [this YouTube
+  playlist](https://www.youtube.com/playlist?list=PLpLblYHCzJABxMUsrXAM4g8i2d9W4oyft),
+  processed, split into segments.
+
 </div>
 
 ## Course goals
