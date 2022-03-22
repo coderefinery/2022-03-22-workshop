@@ -96,7 +96,7 @@ The schedule includes frequent breaks.
 **Day 1 (Tuesday, March 22)**
 - 8:50 - 9:00 connecting time, icebreaker
 - 9:00 - 9:20
-  [Welcome and practical information](https://github.com/coderefinery/workshop-intro/blob/master/README.md)
+  [Welcome and practical information](https://github.com/coderefinery/workshop-intro/blob/master/livestream.md)
   (Richard)
 - 9:20 - 12:30
   [Introduction to version control - part 1/2](https://coderefinery.github.io/git-intro/)
