@@ -106,9 +106,9 @@ What is your prefered programming language and what do you like most about it?
   - I registered for everything but didn't get the zoom link. They explained why in the email. 
 
 - Can we have a **link for the introduction page** you are showing now?
-    - It's at the top of this hackMD (https://coderefinery.org/2022-03-22-workshop/)
+    - It's at the top of this hackMD (https://coderefinery.github.io/2022-03-22-workshop/)
     - Added a workshop intro section with the link.
-    - For the materials follow the links at the schedule https://coderefinery.org/2022-03-22-workshop/#schedule
+    - For the materials follow the links at the schedule https://coderefinery.github.io/2022-03-22-workshop/#schedule
 
 
 
@@ -182,7 +182,7 @@ What is your prefered programming language and what do you like most about it?
     - Git asks you to merge because there are two versions of the  code and it cannot figure out what to do on it's own. 
   
 16. How do I get this "on master" after the directory on the command line? I assume there is an easy way to do it?
-    - sorry, this is a customization which I only explained much later. I use this: https://coderefinery.org/git-intro/customizing/
+    - sorry, this is a customization which I only explained much later. I use this: https://coderefinery.github.io/git-intro/customizing/
 
 ### Poll: What is your editor?
 
@@ -216,7 +216,7 @@ Would love to meet the fellow emacs enthusiasts :)
 16. How do you know which editor is  configured? I am writing in git bash terminal, but I have no clue whether that involves an editor
     - `git config --list` and check core.editor. Or `git config core.editor`.
         - Ah nano it is, thanks.
-    -  It is possible to change the editor with `git config --global core.editor "nano", for example`. More info: https://coderefinery.org/git-intro/aliases/
+    -  It is possible to change the editor with `git config --global core.editor "nano", for example`. More info: https://coderefinery.github.io/git-intro/aliases/
 
 17. Sorry, maybe some one asked this already, how can you get this page in github? https://github.com/achael/eht-imaging/blame/main/ehtim/imaging/starwarps.py
     - No problem
@@ -273,7 +273,7 @@ Would love to meet the fellow emacs enthusiasts :)
 :::
 
 :::info
-https://coderefinery.org/git-intro/basics/#exercise-record-changes
+https://coderefinery.github.io/git-intro/basics/#exercise-record-changes
 Try to do most of the exercise
 
 We'll continue with Git history after the break.
@@ -375,14 +375,14 @@ If you are already familiar with Git you may continue until the end of the Basic
 
 47. What comes next after xx:21 exercises further or lectures?
     - 10 min lecture/discussion and then we go to branching where we start with 10 min lecture/discussion and then another 15 min exercise 
-    - we will restart here: https://coderefinery.org/git-intro/basics/#git-history-and-log and discuss git log, commit messages and when to use gitignore.
+    - we will restart here: https://coderefinery.github.io/git-intro/basics/#git-history-and-log and discuss git log, commit messages and when to use gitignore.
 
 
 48. When trying the git difftool --tool=meld, my system says that the diff tool meld is not available as 'meld'. What should be done here to fix this?
-    - See https://coderefinery.org/installation/difftools/ 
+    - See https://coderefinery.github.io/installation/difftools/ 
     - I guess meld isn't installed.  I would ignore that part, it won't be important right now.
 
-49. [feedback] At https://coderefinery.org/git-intro/basics/, you don't really want to use "my recent changes" as example commit message :D
+49. [feedback] At https://coderefinery.github.io/git-intro/basics/, you don't really want to use "my recent changes" as example commit message :D
     - good point :-) thanks, we will discuss this
 
 :::info
@@ -544,7 +544,7 @@ If you are already familiar with Git you may continue until the end of the Basic
 
 ---
 
-## [Branching and merging](https://coderefinery.org/git-intro/branches/)
+## [Branching and merging](https://coderefinery.github.io/git-intro/branches/)
 
 For people too young to know where the term "HEAD" comes from, it is inspired by tape recorders: https://en.wikipedia.org/wiki/Tape_recorder#/media/File:Akai_GX_635D_-_edit.jpg
 
@@ -624,9 +624,9 @@ For people too young to know where the term "HEAD" comes from, it is inspired by
 
 ### Exercise until xx:15, then break until xx:25
 :::info
-https://coderefinery.org/git-intro/branches/#exercise-create-and-commit-to-branches
+https://coderefinery.github.io/git-intro/branches/#exercise-create-and-commit-to-branches
 Try to do most, there are also optional exercises at the end
-Stop at [merging branches](https://coderefinery.org/git-intro/branches/#merging-branches) unless you know how to merge already.
+Stop at [merging branches](https://coderefinery.github.io/git-intro/branches/#merging-branches) unless you know how to merge already.
 o
 I am:
 - done: ooooooooooooooooooooooooooooooooooooooooooooooo
@@ -673,10 +673,10 @@ I am:
 
 22. What is the best way to undo a commit?
     - We'll do undoing tomorrow. "Best" option dependes whether you have already shared the commit(s) you want to undo with others or not. In short, `git reset` if not yet shared, `git revert` if already shared.
-    - but also you can already have a look in https://coderefinery.org/git-intro/recovering/
+    - but also you can already have a look in https://coderefinery.github.io/git-intro/recovering/
 
 
-23. After `git merge experiment` I get a much simpler graph than the [web page](https://coderefinery.org/git-intro/branches/#merging-branches).
+23. After `git merge experiment` I get a much simpler graph than the [web page](https://coderefinery.github.io/git-intro/branches/#merging-branches).
     ```bash=
     git graph 
     * 0a14973 (less-salt) reduce amount of salt
@@ -866,10 +866,10 @@ How is it going?:
     - Git usually does not allow you to checkout if you have uncommitted changes, at least in files that are tracked by git. If it's "new" files (i.e. not tracked by git) git simply doesn't care about them and leaves them as they are.
     - You may use `git reset --soft <hash-commit>`. This will keep the staging area and the working directory intact.
     - if you need to urgently switch branch for a quick change and want to continue working on the current branch later, you can also stash the changes with `git stash`, change branch and do what you need, then come back and do `git stash apply` for resuming. Stashing is basically git slang for save a draft
-    - More on stashes in this CR episode: https://coderefinery.org/git-intro/interrupted/
+    - More on stashes in this CR episode: https://coderefinery.github.io/git-intro/interrupted/
 
 
-## [Conflict resolution](https://coderefinery.org/git-intro/conflicts/)
+## [Conflict resolution](https://coderefinery.github.io/git-intro/conflicts/)
 
 
 47. Never worked on a recipe this much before :D, not a question :D :+1::+1::::
@@ -899,10 +899,10 @@ How is it going?:
 53. Is it possible to tab autocomplete git commands?
     - Yes, search how depending on your shell.
     - This depends on the terminal. You migth need to set it up, or it might work directly.
-    - You may check the [Customize Git episode](https://coderefinery.org/git-intro/customizing/) for some solutions.
+    - You may check the [Customize Git episode](https://coderefinery.github.io/git-intro/customizing/) for some solutions.
 
 52. how restore to old point/commit
-    - There are several commands for this, depending on if you mean a single file or the entire project. See https://coderefinery.org/git-intro/recovering/.
+    - There are several commands for this, depending on if you mean a single file or the entire project. See https://coderefinery.github.io/git-intro/recovering/.
     - To get a single file, `git checkout commit_hash filename`
 
 53. Say I make a branch and change a bunch of stuff. Then I change stuff in the main branch. Can I pull the changes from the main into the branch without fully merging?
@@ -980,7 +980,7 @@ How is it going?:
 
 - how can we enroll for these voluntary services , i already folllowed you ?Please provide details. 
     - https://coderefinery.org/organization/get-involved/
-    - Best is join chat if you want to get more involved, we aren't that organized beyond chatting yet!: https://coderefinery.org/manuals/chat/
+    - Best is join chat if you want to get more involved, we aren't that organized beyond chatting yet!: https://coderefinery.github.io/manuals/chat/
     - Chat, GitHub, also you can join a community call: https://coderefinery.org/organization/meetings/
 
 POST-LECTURE DOUBTS:
