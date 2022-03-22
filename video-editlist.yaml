@@ -1,31 +1,45 @@
+- workshop_title: CodeRefinery March 2022
 - workshop_description: >
     This is part of the CodeRefinery March 2022 workshop.  The videos
     are available to everyone, but may be most useful to the people
     who attended the workshop and want to review later.
 
 
-    Playlist: TODO
+    Playlist: https://www.youtube.com/playlist?list=PLpLblYHCzJABxMUsrXAM4g8i2d9W4oyft
 
     Workshop webpage: https://coderefinery.github.io/2022-03-22-workshop/
 
     CodeRefinery: https://coderefinery.org/
 
 # This input will be used for all segments until redefined
-- input: FILE.mkv
+- input: day1-obs.mkv
 
-# welcome
-- output: day1-welcome.mp4
-  title: 1.0 Intro - CodeRefinery May 2021
+
+# Preview icebreaker
+- output: day1-preview.mkv
+  title: 1.0 Preview icebreaker
+  description: >-
+    The pre-start discussion and icebreakers.  You probably want to go
+    on to the next video.
+  time:
+    - start: 10:52
+    - end: 20:22
+
+
+# Intro
+- output: day1-intro.mkv
+  title: 1.1 Intro - CodeRefinery May 2021
   description: >
     The introduction to this workshop, explaining general mechanics
     and what CodeRefinery is.
   time:
-    - start: 12:20
-    - stop: 31:14
+    - start: 20:49
+    - stop: 36:14
+
 
 # Git-intro day 1
-- output: day1-git-intro-1.mp4
-  title: 1.1 Git Intro
+- output: day1-git-intro-1.mkv
+  title: 1.2 Git Intro
   description: >
     Here, we go over the basics of git from first principles, though
     this is not the most basic course you can find.  We cover basics,
@@ -42,41 +56,40 @@
     https://coderefinery.github.io/git-intro/
 
   time:
-    - start: 31:14      # Lesson (Sabry)
-    - 31:14: Overview of the day
-    - 33:25: Motivation to version control
-    - 38:12: '"The Life of a Document", watch at https://www.youtube.com/watch?v=CvbLVVRzJF8'
-    - end: 38:51
-    # cut to remove YouTube video
-    - start: 40:55    # Lesson (Sabry)
-    - 40:55: Lesson continues
-    - end: 1:04:45
-    # 1:06:14-1:09:33, gallery view including some audience
-    # going to breakout rooms
-    - 1:18:22, 1:28:27  # Exercise for breakout room (Sabry)
-    # 1:29:29-1:31:23
-    # break
-    - start: 1:41:40   # Lesson (Sabry and Diana)
-    - 1:46:30: External video, Linux Torvalds on git, https://youtu.be/4XpnKHJAok8?t=2625 (43:45 to 44:26)
-    - end: 1:46:48
-    - start: 1:47:44
-    - end: 2:24:07
-    # going to breakout rooms
-    - 2:28:44, 2:36:38  # Exercise for breakout room (Diana)
-    # break
-    - 2:53:20, 3:20:53  # Lesson (Sabry)
-
-    - 41:28: Real-life repository examples
-    - 48:35: Basics of version control
-    - 1:18:22: "Exercise: record changes"
-    - 1:51:13: "Summary so far: basic git commands"
-    - 1:52:02: Using the staging area
-    - 1:58:45: Interactive committing
-    - 2:28:44: "Exercise: Using the staging area"
-    - 2:53:56: Ignoring things with .gitignore
-    - 2:57:54: Undoing things
-    - 3:13:32: Summary of the day
-    - 3:20:01: What to expect in the next lesson
+    - start: 38:17
+    - -: Introductions
+    - 39:50: Overview of the day
+    - 00:43:16: Motivation to version control
+    - 00:57:11: Basics (creating repo, adding, committing, etc.)
+    - 01:13:56: "Exercise: recording changes"
+    - end: 01:16:41
+    - start: 01:41:26
+    - -: Going over the exercise
+    - 01:44:05: git history and log
+    - 01:46:33: commit messages
+    - 01:49:52: .gitignore
+    - 01:52:57: Misc topics and summary
+    - 01:53:58: Summary
+    - 01:58:12: Branching and merging
+    - 01:59:10: Motivation for branches
+    - 02:04:39: '"git graph" alias'
+    - 02:06:47: Branch basics
+    - 02:08:14: Creating and working with branches
+    - 02:14:37: "Exercise: create and commit to branches"
+    - stop: 02:20:10
+    - start: 02:45:01
+    - -: Going over the exercise
+    - 02:50:10: Merging branches
+    - 02:54:24: Deleting branches
+    - 02:57:53: Tags
+    - 03:02:43: "Summary and Q&A"
+    - 03:08:49: Conflict resolution
+    - 03:08:49: What is a conflict?
+    - stop: 03:13:04
+    - start: 03:22:51
+    - 03:23:39: Continue with three branches and making a conflict
+    - 03:32:57: "Wrap-up of the day, Q&A"
+    - stop: 03:48:54
 
 ## Use Twitch for day 2
 #- input: cr-2021may-day2-twitch.mp4
