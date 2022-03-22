@@ -66,16 +66,6 @@ Sigma2](https://www.sigma2.no/) (NO), [SNIC](https://snic.se/) (SE),
 Type 1 Consortium for Interactive HPC (DK), and
 [USIT, UiO](https://www.usit.uio.no/) (NO).
 
-## Certificates and credits
-
-We currently cannot offer attendance certificates or certificates for completing the workshop.
-
-The reason why we cannot offer these is that for an online workshop of this size
-it is difficult to track online attendance without compromising privacy and without putting too much
-administrative strain on exercise group leaders.
-
-However, certain partners may track attendance and provide certificates for their participants, see above.
-
 ## Schedule
 
 All times are in **Europe/Stockholm time (CET/CEST)**. (Convert 9:00 to
@@ -148,6 +138,24 @@ The schedule includes frequent breaks.
   (Richard)
 
 
+## Certificates and credits
+
+It is possible to obtain a certificate from the course with a little extra work. 
+Please note that this does not apply to participants affiliated with TU Delft.
+
+To obtain a certificate, we expect you to follow the 6 days of the course and provide us with the following three documents via email:
+
+1. The output of `git log --all` from the repositories that you have used during the course as a text file. Evaluation criteria: we expect to see the results from most of the git commands that are run in the first 3 days of the workshop.
+2. Written answers to the following four questions submitted as a document (pdf or word or txt). Evaluation criteria: we expect critical answers related to the content of first 3 days with both pros and cons (when relevant):
+    - When should you work with branches?
+    - What is the difference between a `git clone` and a `git fork`?
+    - What is the difference between a fork and a branch?
+    - What advantages and disadvantages to code review can you imagine/list?
+3. A personal reflection for each of the 6 days written as a document (pdf or word or txt, one paragraph per day). Evaluation criteria: we expect reflections that are related to the content of each of the six days.
+
+These three documents should be sent before 14/April/2022 23:59CET to one of the following email addresses. If you are from a Swedish institution you may email diana.iusan@uppmax.uu.se. If you are from other countries please email enrico.glerean@aalto.fi. If the evaluation criteria are met for each of the 3 documents, you will receive a certificate by the end of April 2022. Please note that we do not track course attendance.
+
+
 #### Contact
 
 - <support@coderefinery.org>
@@ -203,3 +211,5 @@ The schedule includes frequent breaks.
 - Stephan Smuts
 - Ingrid Strandberg
 - Aleksandra Wilczynska
+
+
