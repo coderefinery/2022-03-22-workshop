@@ -91,90 +91,67 @@
     - 03:32:57: "Wrap-up of the day, Q&A"
     - stop: 03:48:54
 
-## Use Twitch for day 2
-#- input: cr-2021may-day2-twitch.mp4
-#
-#- output: day2-intro.mp4
-#  title: Day 2 introduction - CodeRefinery May 2021
+# Day 2
+- input: day2-obs.mkv
+
+#- output: day2-intro.mkv
+#  title: Day 2 introduction
 #  description: >
 #    The quick introduction to Day 2.  This is mainly icebreaker
 #    discussion and practical matters.
 #  time:
 #    - start: 11:33
 #    - end: 24:40
+
+# Git-intro day 2
+- output: day2-git-intro-2.mkv
+  title: 2.1 Git Intro day 2
+  description: >
+    Part 2 of the previous video: https://www.youtube.com/watch?v=KxFn4hLhQ1E&list=PLpLblYHCzJABxMUsrXAM4g8i2d9W4oyft&index=3
+
+    Here, we go over the basics of git from first principles, though
+    this is not the most basic course you can find.  Previous video:
+    We covered basics, motivation, making commits, undoing things,
+    staging.  This part 2 video goes into remotes and basics of
+    sharing repositories online, inspecting history, undoing and
+    recovering, and some practical advice.  However, this does not
+    cover multi-user work or remotes (that is the next lesson,
+    git-collaborative).
+
+    https://coderefinery.github.io/git-intro/
+
+  time:
+    - start: 00:25:10
+    - -: Plan of today
+    - 00:26:13: Sharing repositories online
+    - 01:04:21: Inspecting history
+    - stop: 01:25:13
+    - start: 01:35:36
+    - -: Small clarifications
+    - 01:37:48: "Exercises: inspecting history"
+    - stop: 01:43:00
+    - start: 02:16:48
+    - -: Wrap-up of inspecting history
+    - stop: 02:28:00
+    - start: 02:39:06
+    - -: Undoing and recovering
+    - 02:56:51: "Exercises: undoing and recovering"
+    - stop: 02:59:19
+    - start: 03:22:17
+    - -: Recovering from committing to the wrong branch (cherry-pick)
+    - stop: 03:30:56
+    - start: 03:37:25
+    - 03:38:39: The staging area
+    - 03:44:42: Practical advice
+    - 03:50:43: Final discussion, feedback, etc.
+    - stop: 03:54:10
+
+
+# Day 3
+#- input: day3-obs.mkv
 #
-## Git-intro day 2
-#- output: day2-git-intro-2.mp4
-#  title: Git Intro day 2 - CodeRefinery May 2021
-#  description: >
-#    Part 2 of the previous video: 
-#  
-#    Here, we go over the basics of git from first principles, though
-#    this is not the most basic course you can find.  Previous video: We covered basics,
-#    motivation, making commits, undoing things, staging.  This part 2
-#    video goes into branching and merging, conflict resolution,
-#    inspecting history, basics of
-#    sharing repositories online, and some practical advice.  However, this does not cover
-#    multi-user work or remotes (that is the next lesson, git-collaborative).
-#
-#    https://coderefinery.github.io/git-intro/
-#  
-#    The other conflict resolution video which was referred to in the video: https://www.youtube.com/watch?v=p03ebpjuRgA&list=PLpLblYHCzJAB6blBBa0O2BEYadVZV3JYf
-#  time:
-#    - start: 25:16      # Lesson (Sabry)
-#    - 25:16: Preparation
-#    - end: 29:05
-#    - start: 29:26
-#    - 29:26: Branching and merging
-#    - 35:50: "Demo: branching and merging"
-#    - 48:25: "Exercise: branching and merging"
-#    - end: 52:21
-#    - start: 53:30
-#    - 53:30: "Aside: What is the working tree?"
-#    - 53:38: "Exercise demo: branching and merging"
-#    - end: 1:04:55
-#    - start: 1:05:54
-#    - -: Q&A
-#    - end: 1:06:40
-#    - start: 1:08:18
-#    - end: 1:26:51
-#    - start: 1:38:30
-#    - -: Conflict resolution
-#    - end: 1:55:11
-#    - start: 1:56:13
-#    - -: Sharing repositiories online
-#    - 2:05:40: "Type-along: sharing repositories on Github"
-#    - end: 2:20:32
-#    - start: 2:33:04
-#    - -: Inspecting history
-#    - 2:35:32: "Inspecting history: the Git History browser"
-#    - 2:37:00: "Inspecting history: git grep"
-#    - 2:39:35: "Inspecting history: git log -S"
-#    - 2:41:19: "Inspecting history: git show"
-#    - 2:43:33: "Inspecting history: git annotate"
-#    - 2:46:59: "Inspecting history: git checkout -b"
-#    - 2:52:47: "Exercise: basic archaeology commands"
-#    - end: 2:57:45
-#    - start: 3:02:18
-#    - -: "Exercise as a demo"
-#    - end: 3:18:35
-#    - start: 3:20:08
-#    - -: Q&A about the exercise
-#    - 3:23:19: Quick summary of git-bisect
-#    - 3:32:18: Practical advice
-#    - end: 3:33:35
-##    - 1:45: Title of section
-##    - 5:45: Title of Section
-##    - ??: Branching and Merging
-##    - ??: Conflict resolution
-##    - ??: Sharing repositories online
-##    - ??: Inspecting history
-##    - end: XX:??
-#
-#- input: cr-2021may-day3-git-collab-twitch.mp4
-#
-#- output: day3-intro.mp4
-#  title: Day 3 intro - CodeRefinery May 2021
+#- output: day3-intro.mkv
+#  title: Day 3 intro
 #  description: >
 #    The quick introduction to day 3.
 #  time:
