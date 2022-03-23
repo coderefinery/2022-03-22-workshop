@@ -13,7 +13,7 @@ here.
 As workshop participant please avoid using personal information.
 
 - [Day 1 questions and notes](./day1)
-<!-- - [Day 2 questions and notes](./day2)-->
+- [Day 2 questions and notes](./day2)
 <!-- - [Day 3 questions and notes](./day3)-->
 <!-- - [Day 4 questions and notes](./day4)-->
 <!-- - [Day 5 questions and notes](./day5)-->
