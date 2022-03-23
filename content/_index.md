@@ -8,11 +8,11 @@ title = "Schedule"
 - Anyone can follow the workshop on <https://twitch.tv/coderefinery/> but please do register anyway to "live stream"
   as this makes it easier for us to report to our funders on how many
   learners we reach.
-- Day 1 news:
-  - We went up to "conflict resolution" in git-intro.  You might want
-    to edit that some.
-  - Tomorrow we use GitHub, so pay attention to installation
-    instructions (in particular GitHub and `ssh`).
+- Day 2 news:
+  - We finished git-intro
+  - Tomorrow we use GitHub for real, so pay attention to installation
+    instructions (in particular GitHub and `ssh`).  Make sure you
+    verify the Github connection as the instructions say!
   - See you tomorrow at xx:50!
 - HackMD are posted to [the Q&A page](questions/) after a few hours
   with additional clarifications.
