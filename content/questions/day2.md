@@ -1,4 +1,8 @@
-# Archive: CodeRefinery March workshop 2022
++++
+template = "page-with-toc.html"
++++
+
+# Questions and notes from workshop day 2
 
 ## 0. Intro
 
