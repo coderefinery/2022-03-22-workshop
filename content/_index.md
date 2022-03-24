@@ -8,12 +8,16 @@ title = "Schedule"
 - Anyone can follow the workshop on <https://twitch.tv/coderefinery/> but please do register anyway to "live stream"
   as this makes it easier for us to report to our funders on how many
   learners we reach.
-- Day 2 news:
-  - We finished git-intro
-  - Tomorrow we use GitHub for real, so pay attention to installation
-    instructions (in particular GitHub and `ssh`).  Make sure you
-    verify the Github connection as the instructions say!
-  - See you tomorrow at xx:50!
+- Day 3 news:
+  - We finished git-collaborative
+  - Next week we change track and go more to software stuff.  Git is
+    still important but more of a tool to get our other work done.
+    Make sure that you can access Github.
+  - Especially make sure that you can access the rest of the software
+    installation: miniconda and the coderefinery environment.  This is
+    heavily used next week.  Follow all steps in the [installation
+    instructions](https://coderefinery.github.io/installation/)
+  - See you Tuesday at xx:50!
 - HackMD are posted to [the Q&A page](questions/) after a few hours
   with additional clarifications.
 - Workshop videos
