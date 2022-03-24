@@ -8,6 +8,9 @@ title = "Schedule"
 - Anyone can follow the workshop on <https://twitch.tv/coderefinery/> but please do register anyway to "live stream"
   as this makes it easier for us to report to our funders on how many
   learners we reach.
+- All emails to participants (without registration-only links) can be
+  found from the [workshop issue
+  tracker](https://github.com/coderefinery/2022-03-22-workshop/issues)
 - Day 3 news:
   - We finished git-collaborative
   - Next week we change track and go more to software stuff.  Git is
