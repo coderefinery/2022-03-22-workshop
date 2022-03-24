@@ -151,7 +151,7 @@
 - input: day3-obs.mkv
 
 - output: day3-intro.mkv
-  title: Day 3 intro
+  title: 3.0 Day 3 intro
   description: >
     The quick introduction to day 3.  This skips the icebreaker but
     shows how we actually use the very tools in this workshop through
@@ -165,9 +165,15 @@
 
 
 - output: day3-git-collab.mkv
-  title: Git collaborative
+  title: 3.1 Git collaborative
   description: >
-      Today, we expand from using git by yourself to using it in a team.  We use Github, centralized workflows, pull requests, and more.
+      Today, we expand from using git by yourself to using it in a
+      team.  We use Github, centralized workflows, forking on Github,
+      pull requests, code review, commenting on pull requests,
+      practical advice on using Git and version control in real projects,
+      contributing to other projects, and more.
+
+      https://coderefinery.org/git-collaborative/
   time:
     - start: 00:19:26
     - -: Intro
