@@ -28,7 +28,7 @@ title = "Schedule"
   - By the same evening in [this YouTube
   playlist](https://www.youtube.com/playlist?list=PLpLblYHCzJABxMUsrXAM4g8i2d9W4oyft),
   processed, split into segments.
-
+- Twitter hashtag: `#coderefinery22`
 </div>
 
 ## Course goals
