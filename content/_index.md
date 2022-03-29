@@ -174,7 +174,7 @@ To obtain a certificate, we expect you to follow the 6 days of the course and pr
     - What is the difference between a `git clone` and a `git fork`?
     - What is the difference between a fork and a branch?
     - What advantages and disadvantages to code review can you imagine/list?
-3. A personal reflection for each of the 6 days written as a document (pdf or word or txt, one paragraph per day). Evaluation criteria: we expect reflections that are related to the content of each of the six days.
+3. A personal reflection for each of the 6 days written as a document (pdf or word or txt, one paragraph per day). To get started, you can try answering the questions "Why is this important? How can it improve my research work?", however any other personal reflection is welcome. Evaluation criteria: we expect reflections that are related to the content of each of the six days.
 
 These three documents should be sent before 14/April/2022 23:59CET to one of the following email addresses. If you are from a Swedish institution you may email diana.iusan@uppmax.uu.se. If you are from other countries please email enrico.glerean@aalto.fi. If the evaluation criteria are met for each of the 3 documents, you will receive a certificate by the end of April 2022. Please note that we do not track course attendance.
 
