@@ -484,7 +484,7 @@ I am:
 79. snakemake not considering 'make_plot' as multiple thread option?
     - you mean why it doesn't have `threads`?  I wonder if that is just an example, I doubt any of these are actually multi-threaded.
  
-80. I am getting error once running "snakemake -j 1 --dag | dot -Tpng > dag.png". the error is ``"Error: <stdin>: syntax error in line 1 near 'Error'".`
+80. I am getting error once running "snakemake -j 1 --dag | dot -Tpng > dag.png". the error is `"Error: <stdin>: syntax error in line 1 near 'Error'".`
     - try first to run the part before the "pipe" (the | symbol) as probably that part gave an error and then the second part of the command (the one after the pipe) got something unexpected
     - it has been fixed
       - good :-) 
