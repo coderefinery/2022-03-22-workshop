@@ -209,97 +209,96 @@
     - 03:54:23: "Wrap up: of the week: three levels of git (yourself, small team, the world)"
     - stop: 04:02:39
 
-#- input: cr-2021may-day4-obs.mkv
-#
-#- output: day4-intro.mkv
-#  title: Second week introduction
-#  description: >
-#    The introduction to the second week, where we go into slightly more detail about what we will cover this week and how it fits together.
-#  time:
-#    - start: 10:15
-#    - end: 15:20
-#    #- ????: Intro
-#
-#- output: day4-reproducible-research.mkv
-#  title: Reproducible Research
-#  description: >
-#    If you can't get your code to do the same thing again, is it
-#    really science?  Or more practically, are you able to do your
-#    work?  Reproducibilty is a big deal, but we don't always learn how
-#    to do it.  In this lesson, we cover the basics, how to organize
-#    projects, record computational steps with Snakemake or other
-#    workflow managers, how to record environments with conda (and docker
-#    a bit), and sharing code and data (FAIR).
-#
-#    https://coderefinery.github.io/reproducible-research/
-#
-#  time:
-#    - start: 15:28   # first session before break, exclude meta
-#    - end: 1:05:10
-#    - 15:28: "Introduction"
-#    - 17:00: "Motivation"
-#    - 23:20: "Organizing your projects"
-#    - 31:25: "Begin the word-count example"
-#    - 39:15: "Dependencies"
-#    - 51:40: "Type-along: Conda environment"
-#    - end: 1:04:50
-#    - start: 1:16:20
-#    - 1:17:48: "Containers"
-#    - 1:22:58: "Recording computational steps"
-#    - 1:25:00: "Exercise preparation: Snakemake"
-#    - end: 1:33:30
-#
-#    - start: 1:38:45
-#    - 1:38:45: "Snakemake exercise demo"
-#    - end: 1:45:35
-#
-#    - start: 1:55:20
-#    - 1:55:25: "Sharing research data"
-#    - end:   2:00:40
-#
-#    - start: 2:05:25
-#    - 2:05:25: Instructor discussion
-#    - end:   2:08:08
-#
-#    - start: 2:12:41
-#    - 2:13:00: Fair principles
-#    - end: 2:15:34
-#
-#- output: day4-social-coding.mkv
-#  title: Social coding
-#  description: >
-#    We don't just program for ourselves: we are part of a community.  As scientists, we want to get citations, so how can our software support this?  Our work is a constant balance between using the work of others and hoping that others will use our work.  In this lesson, we talk about the advantages and disadvantages of others building on our work, and how to support that.
-#
-#    We cover best practices for software/data projects, requirements for sharing, copyright, licensing, citation, and more.
-#
-#    https://coderefinery.github.io/social-coding/
-#  time:
-#    - 2:26:55, 2:31:15
-#    - 2:26:55: Intro
-#    - 2:27:50: Social Coding
-#    # Break for answering questions
-#    - 2:34:55, 3:01:00
-#    - 2:58:10: "Exercise: how to make a repository more reusable?"
-#    - 3:07:45, 3:12:20
-#    #- 3:16:14-17??  Learner in video
-#    - cover: {begin: "3:16:14", end: "3:16:17", w: 840, h: 300, x: 360}
-#    - 3:14:25, 3:17:20
-#    - 3:22:05, 3:38:30
-#    - 3:22:05: Licensing
-#    - 3:35:30: Practical recommendations
-#    - 3:37:05: Software citation
-#
+# Day 4
+- input: day4-obs.mkv
+
+- output: day4-intro.mkv
+  title: 4.0 Second week introduction
+  description: >
+    The introduction to the second week, where we go into slightly
+    more detail bout what we will cover this week and how it fits
+    together.
+
+    In short, if last week was about tracking code, this week is about
+    managing software.
+  time:
+    - start: 00:20:04
+    - end: 00:23:21
+
+
+- output: day4-reproducible-research.mkv
+  title: 4.1 Reproducible Research
+  description: >
+    If you can't get your code to do the same thing again, is it
+    really science?  Or more practically, are you able to do your
+    work?  Reproducibilty is a big deal, but we don't always learn how
+    to do it.  In this lesson, we cover the basics, how to organize
+    projects, record computational steps with Snakemake or other
+    workflow managers, how to record environments with conda (and docker
+    a bit), and sharing code and data (FAIR).
+
+    https://coderefinery.github.io/reproducible-research/
+
+  time:
+    - start: 00:24:15
+    - -: Introductions
+    - 00:26:18: Reproducible research
+    - 00:28:55: Motivation
+    - 00:37:51: Organizing your projects
+    - 00:52:05: Recording dependencies
+    - 01:09:02: "Exercise: Working with conda"
+    - stop: 01:10:34
+    - start: 01:23:45
+    - -: Exercise discussion
+    - 01:24:12: Other dependency management tools
+    - stop: 01:25:29
+    - start: 01:34:59
+    - -: Recording computational steps
+    - 01:36:24: "Exercise preparation: Snakemake"
+    - 02:00:39: "Exercise: Using SnakeMake"
+    - stop: 02:02:55
+    - start: 02:18:08
+    - -: Recording environments with containers
+    - 02:27:22: Sharing code and data
+    - 02:30:04: "Exercise: Connecting repositories to Zenodo"
+    - stop: 02:33:43
+    - start: 02:43:32
+    - stop: 02:45:56
+
+- output: day4-social-coding.mkv
+  title: 4.2 Social coding
+  description: >
+    We don't just program for ourselves: we are part of a community.
+    As scientists, we want to get citations, so how can our software
+    support this?  Our work is a constant balance between using the
+    work of others and hoping that others will use our work.  In this
+    lesson, we talk about the advantages and disadvantages of others
+    building on our work, and how to support that.
+
+    We cover best practices for software/data projects, requirements
+    for sharing, copyright, licensing, citation, and more.
+
+    https://coderefinery.github.io/social-coding/
+  time:
+    - start: 02:53:08
+    - 02:54:49: Social coding
+    - 03:19:06: Licensing
+    - stop: 03:48:24
+
+
 #- output: day4-outro.mkv
-#  title: Day 4 final remarks
+#  title: 4.3 Day 4 final remarks
 #  description: >
 #    ...
 #  time:
 #    - 3:38:30, 3:39:42
 #
-#- input: cr-2021may-day5-obs.mkv
-#
+
+# Day 5
+- input: day5-obs.mkv
+
 #- output: day5-intro.mkv
-#  title: Day 5 introduction
+#  title: 5.0 Day 5 introduction
 #  description: >
 #    The quick introduction to Day 5.
 #  time:
@@ -307,67 +306,91 @@
 #    - 8:25, 9:05
 #    - 13:15, 20:50     #
 #    - 15:00: Jupyter getting started
-#
-#
-#- output: day5-jupyter.mkv
-#  title: Jupyter
-#  description: >
-#    The goal of this lesson is to teach learners the user interface of JupyterLab, how Jupyter notebooks work, and what some common and powerful usecases are. Our focus is to demonstrate and discuss and guide towards good practices for reproducibility, collaboration, and reusability. The emphasis of this lesson is to demonstrate how to use notebooks in combination with version control and how to share reproducible notebooks via Binder.
-#
-#    This lesson demonstrates the use of JupyterLab, nbdime, jupyterlab-git, and Binder.
-#
-#    https://coderefinery.github.io/jupyter/
-#  time:
-#    - cover: {begin: "41:29", end: "41:35", w: 840, h: 300, x: 360}
-#    - 20:50, 1:00:30   # episode, Exercise as a demo
-#    - 1:01:20, 1:18:24         # After exercise
-#    - 1:32:50, 1:49:50
-#                          # 1:15:45 Thor in video
-#    - 1:53:25, 1:55:20
-#    - 20:50: Motivation, pitfalls, best practices
-#    # 32:50 Sabry appears
-#    - 37:41: Interface
-#    # Diana name at 44:30
-#    - 42:10: "Exercise: Darts and the interface"
-#    - 50:00: "Demo: Darts exercise plus explanation"
-#    - 1:01:20: Post-exercise discussion
-#    - 1:11:20: Git and notebooks
-#    - 1:32:50: Binder and sharing notebooks
-#
-#- output: day5-documentation.mkv
-#  title: Documentation
-#  description: >
-#    In this lesson we discuss different solutions for implementing and deploying code documentation. We start by creating a wishlist for how we would code documentation like to be. Then after a tour of available tools, we discuss how to write useful and accessible READMEs, and then we progress by demonstrating and practicing the Sphinx documentation generator and demonstrate how to deploy documentation to Read the Docs service.
-#
-#    Topics and tools discussed: Markdown, reStructured text, README documentation, table of contents generation, Sphinx, Read the Docs, GitHub/GitLab pages.
-#
-#    https://coderefinery.github.io/documentation/
-#  time:
-#    - 1:59:55, 2:26:25
-#    - 2:27:00, 2:40:05
-#    - 2:40:55, 2:44:00
-#    # 2:30:00 Stefan in video
-#    # 2:38:00 - 29:31 Johan in stream
-#    - 2:53:50, 3:21:15
-#    - 3:22:25, 3:45:00
-#    - 3:47:13, 4:02:54
-#
-#    - 2:00:00: Intro
-#    - 2:01:00: Motivation
-#    - 2:14:20: Popular tools
-#    - 2:21:20: Readme files
-#    - 2:23:55: "Exercise: Readme files"
-#    - 2:53:50: Sphinx documentation
-#    - 2:57:30: Sphinx type-along
-#    - 3:19:40: Sphinx exercise
-#    - 3:22:25: Sphinx exercise demo
-#    - 3:36:45: What comes next
-#    - 3:39:00: ReadTheDocs summary
-#    - 3:40:50: Github Pages summary
-#    - 3:42:40: Summary, eend of day
-#    - 3:47:13: ReadTheDocs demo
-#
-#
+
+
+- output: day5-jupyter.mkv
+  title: 5.1 Jupyter
+  description: >
+    This lesson teachs learners the user interface of JupyterLab, how
+    Jupyter notebooks work, and what some common and powerful usecases
+    are. Our focus is to demonstrate and discuss and guide towards
+    good practices for reproducibility, collaboration, and
+    reusability. The emphasis of this lesson is to demonstrate how to
+    use notebooks in combination with version control and how to share
+    reproducible notebooks via Binder.
+
+    This lesson demonstrates the use of JupyterLab, nbdime,
+    jupyterlab-git, and Binder.
+
+    https://coderefinery.github.io/jupyter/
+  time:
+    - start: 00:13:13
+    - 00:14:25: Intro to Jupyter and JupyterLab
+    - 00:15:18: Motivation
+    - 00:26:25: JuptyerLab and notebook interface
+    - 00:37:48: A first computational notebook example
+    - 00:39:28: "Exercise: calculating pi"
+    - stop: 00:41:51
+    - start: 00:51:27
+    - -: Going over the exercise as a demo
+    - stop: 00:59:20
+    - start: 01:02:09
+    - 01:03:55: Other examples
+    - 01:06:03: Version control and notebooks
+    - stop: 01:19:40
+    - start: 01:30:22
+    - -: Binder
+    - stop: 01:57:46
+
+- output: day5-documentation.mkv
+  title: 5.2 Documentation
+  description: >
+    In this lesson we discuss different solutions for implementing and
+    deploying code documentation. We start by creating a wishlist for
+    how we would code documentation like to be. Then after a tour of
+    available tools, we discuss how to write useful and accessible
+    READMEs, and then we progress by demonstrating and practicing the
+    Sphinx documentation generator and demonstrate how to deploy
+    documentation to Read the Docs service.
+
+    Topics and tools discussed: Markdown, reStructured text, README
+    documentation, table of contents generation, Sphinx, Read the
+    Docs, GitHub/GitLab pages.
+
+    https://coderefinery.github.io/documentation/
+  time:
+    - start: 02:07:24
+    - 02:08:08: Documentation wishlist
+    - 02:12:19: What do we expect from good documentation?
+    - stop: 02:16:21  # network glitch
+    - start: 02:16:59
+    - 02:20:39: Popular tools and solutions
+    - 02:25:23: In-code documentation (not covered)
+    - 02:25:39: Readme files
+    - 02:26:42: "Exercise: Readme files"
+    - stop: 02:28:33
+    - start: 02:42:17
+    - -: Exercise discussion
+    - 02:44:34: Sphinx lesson preparation
+    - stop: 02:45:43
+    - start: 02:55:42
+    - -: Sphinx lesson
+    - stop: 03:25:40
+    - start: 03:40:13
+    - -: Final discussion
+    - 03:40:56: Deploying Sphinx to Github Pages / Hosting your own sites on Github Pages (not covered)
+    - 03:42:17: Summary
+    - stop: 03:45:28
+
+- output: day5-outro.mkv
+  title: 5.3 Day 5 outro
+  description: >-
+    Conclusion of day 5 and expectations for day 6.
+  time:
+    - start: 03:45:28
+    - stop: 03:46:23
+
+
 #- input: cr-2021may-day6-obs.mkv
 #
 #- output: day6-intro.mkv
