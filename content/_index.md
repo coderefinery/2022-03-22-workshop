@@ -11,16 +11,9 @@ title = "Schedule"
 - All emails to participants (without registration-only links) can be
   found from the [workshop issue
   tracker](https://github.com/coderefinery/2022-03-22-workshop/issues)
-- Day 3 news:
-  - We finished git-collaborative
-  - Next week we change track and go more to software stuff.  Git is
-    still important but more of a tool to get our other work done.
-    Make sure that you can access Github.
-  - Especially make sure that you can access the rest of the software
-    installation: miniconda and the coderefinery environment.  This is
-    heavily used next week.  Follow all steps in the [installation
-    instructions](https://coderefinery.github.io/installation/)
-  - See you Tuesday at xx:50!
+- Day 5 news:
+  - Tomorrow we discuss software testing and modular code development
+    and how they relate to code complexity and reusability.
 - HackMD are posted to [the Q&A page](questions/) after a few hours
   with additional clarifications.
 - Workshop videos
