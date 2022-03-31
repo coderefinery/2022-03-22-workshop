@@ -391,8 +391,9 @@
     - stop: 03:46:23
 
 
-#- input: cr-2021may-day6-obs.mkv
-#
+
+- input: day6-obs.mkv
+
 #- output: day6-intro.mkv
 #  title: Day 6 intro
 #  description: >
@@ -400,73 +401,85 @@
 #  time:
 #    - start: 15:47
 #    - end: 19:10
-#
-#- output: day6-testing.mkv
-#  title: Software Testing
-#  description: >
-#    Software testing is a fundamental part of modern software development, and especially important for science since results should be correct.  Luckily, it's not so hard to get started, and anyone can do it. This is a crash course for scientists to get started testing their software.
-#
-#    Tools covered include concepts of testing for science, unit testing, pytest, continuous integration, GitHub actions .  We make demos in Python, but have examples in other languages and this will apply to every language in some form.
-#
-#    https://coderefinery.github.io/testing/
-#
-#  time:
-#    - start: 19:10
-#    - 19:10: Intro
-#    - 22:05: Motivation
-#    - 32:20: Concepts
-#    - 41:10: Q&A
-#    - 45:00: "Exercise: testing locally"
-#    - cover: {begin: "45:48", end: "46:04", w: 840, h: 300, x: 360}
-#    - end: 47:27
-#    - start: 48:25
-#    - 48:25: Exercise as a demo
-#    - end: 54:00 # ???
-#    #- start: 1:03:00  # ???, Small discussion but said again once people are back
-#    #- end:
-#    - start: 1:06:50
-#    - 1:06:50: Q&A
-#    - 1:08:10: Automated testing with CI
-#    #- 1:11:25: CI step 1-2
-#    #- 1:29:50: Step 7: Fix the broken test
-#    #- 1:34:00 Step 8: Open a pull request
-#    - 1:36:30: Q&A, summary of automated testing
-#    - 1:37:55: Test design, exercise prepration
-#    - end: 1:43:00
-#    - start: 2:16:45
-#    - end: 2:17:08
-#
-#- output: day6-modular-code-development.mkv
-#  title: Modular Code Development
-#  description: >
-#    In this live-coding demo session we take a Python script as starting point which reads data, computes simple statistics, and generates a plot. Together we then improve this code based on suggestions from the audience to arrive at a more reusable code with reusable components. We start in the Jupyter notebook, later move to a Python script/module, introduce testing, and finally introduce and motivate a command line interface to our code.
-#
-#    In this demonstration we use JupyterLab, Python, Pandas,
-#    Matplotlib, pytest, and Click.  It is also a great demonstration
-#    of pair programming.
-#
-#    https://coderefinery.github.io/modular-type-along/
-#  time:
-#    - start: 2:17:50
-#    - 2:17:50: Intro and questions to the audience
-#    - cover: {begin: "2:22:20", end: "2:22:26", w: 840, h: 100, x: 600}
-#    # Max at 2:26:30
-#    - 2:36:15: "Modular type-along"
-#    - 2:38:10: Starting with Jupyter
-#    - 2:44:00: Functions
-#    - end: 3:04:40
-#    - start: 3:10:50
-#    - 3:10:50: Some questions
-#    - 3:14:10: Moving out of the notebook
-#    - cover: {begin: "3:15:03", end: "3:15:09", w: 840, h: 165, x: 540}
-#    - 3:24:05: Adding a command line interface
-#    - 3:32:20: Wrap-up
-#    - end: 3:33:30e
-#
-#- output: day6-outro.mkv
-#  title: Workshop outro
-#  description: >
-#      The concluding remarks of the workshop.
-#  time:
-#    - start: 3:35:10
-#    - end: 3:47:17
+
+
+
+- output: day6-testing.mkv
+  title: 6.1 Software Testing
+  description: >
+    Software testing is a fundamental part of modern software
+    development, and especially important for science since results
+    should be correct.  Luckily, it's not so hard to get started, and
+    anyone can do it. This is a crash course for scientists to get
+    started testing their software.
+
+    Tools covered include concepts of testing for science, unit
+    testing, pytest, continuous integration, and GitHub actions.  We
+    make demos in Python, but have examples in other languages and
+    this will apply to every language in some form.
+
+    https://coderefinery.github.io/testing/
+
+  time:
+    - start: 00:18:05
+    - 00:20:25: Motivation
+    - 00:36:53: Concepts
+    - 00:45:15: Testing locally
+    - 00:51:15: "Exercise: testing locally with pytest"
+    - stop: 00:52:51
+    - start: 01:06:35
+    - -: "Q&A"
+    - stop: 01:20:14
+    - start: 01:29:47
+    - 01:30:22: Automated testing and continuous integration with Github Actions
+    - 01:51:23: Test design
+    - stop: 02:17:23
+
+
+
+- output: day6-modular-code-development.mkv
+  title: 6.2 Modular Code Development
+  description: >
+    In this live-coding demo session we take a Python script as
+    starting point which reads data, computes simple statistics, and
+    generates a plot. Together we then improve this code based on
+    suggestions from the audience to arrive at a more reusable code
+    with reusable components. We start in the Jupyter notebook, later
+    move to a Python script/module, introduce testing, and finally
+    introduce and motivate a command line interface to our code.
+
+    In this demonstration we use JupyterLab, Python, Pandas,
+    Matplotlib, pytest, and Click.  It is also a great demonstration
+    of pair programming.
+
+    https://coderefinery.github.io/modular-type-along/
+  time:
+    - start: 02:29:51
+    - 02:32:18: Starting questions discussion
+    - 02:37:08: Learning topics
+    - 02:38:26: "Type-along begins: introduction to our task"
+    - 02:42:47: Fetching the data
+    - 02:44:52: Starting in a Jupyter notebook
+    - 02:53:10: Splitting up into smaller functions
+    - stop: 03:10:23
+    - start: 03:20:33
+    - 03:21:02: Benefits of organizing code into smaller units
+    - 03:22:16: What should we do next? binder, packaging, ...
+    - 03:24:22: Moving to git, command-line program, and modules
+    - 03:26:43: Building a command-line program
+    - 03:33:47: Adding a test
+    - stop: 03:39:04
+
+
+
+- output: day6-outro.mkv
+  title: 6.3 Workshop outro
+  description: >
+      The concluding remarks of the workshop.
+
+      Updated version: https://github.com/coderefinery/workshop-outro/blob/master/README.md
+
+      Version presented: https://github.com/coderefinery/workshop-outro/blob/26e552875f69bf338bb60575932197860578323c/README.md
+  time:
+    - start: 03:40:03
+    - end: 03:53:00
