@@ -5,20 +5,17 @@ title = "Schedule"
 <div class="alert alert-info">
 <span style="color:darkred;font-weight:bold">News:</span>
 
-- Anyone can follow the workshop on <https://twitch.tv/coderefinery/> but please do register anyway to "live stream"
+- ~~Anyone can follow the workshop on <https://twitch.tv/coderefinery/> but please do register anyway to "live stream"
   as this makes it easier for us to report to our funders on how many
-  learners we reach.
+  learners we reach.~~ Workshop is done, thanks to all attendees!
 - All emails to participants (without registration-only links) can be
   found from the [workshop issue
   tracker](https://github.com/coderefinery/2022-03-22-workshop/issues)
-- Day 5 news:
-  - Tomorrow we discuss software testing and modular code development
-    and how they relate to code complexity and reusability.
-- HackMD are posted to [the Q&A page](questions/) after a few hours
+- HackMD questions are posted to [the Q&A page](questions/) after a few hours
   with additional clarifications.
 - Workshop videos
   - Immediately (for 14 days only, unprocessed) [on Twitch](https://www.twitch.tv/coderefinery/videos/)
-  - By the same evening in [this YouTube
+  - All are now in [this YouTube
   playlist](https://www.youtube.com/playlist?list=PLpLblYHCzJABxMUsrXAM4g8i2d9W4oyft),
   processed, split into segments.
 - Twitter hashtag: `#coderefinery22`
