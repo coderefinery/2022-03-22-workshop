@@ -69,10 +69,10 @@ template = "page-with-toc.html"
 
 ---
 ## 1. Jupyter
-https://coderefinery.org/jupyter/version-control/
+https://coderefinery.github.io/jupyter/version-control/
 
 ### 1.1 Jupyter notebooks 
-https://coderefinery.org/jupyter/motivation/
+https://coderefinery.github.io/jupyter/motivation/
 
 1. I don't use python so far (planning to learn). Can we use jupyter for R? Or is it similar to R studio?
     - Yes, you can.  Many people use RStudio instead, but some of the Jupyter lesson here still applies (the Binder part might be especially useful)
@@ -94,7 +94,7 @@ https://coderefinery.org/jupyter/motivation/
 
 5. Where is the link to install jupyter? I saw it before, but can't find it now. 
     - Jupyter and JupyterLab are part of the CodeRefinery environment.yml file which was part of the installation instructions
-    - Instructions for creating the environment: https://coderefinery.org/installation/conda-environment/
+    - Instructions for creating the environment: https://coderefinery.github.io/installation/conda-environment/
 
 6. Can Jupyter be used for MATLAB codes or is there any alternative for that?
    - There is a MATLAB "kernel" that runs matlab code within Jupyter.
@@ -128,14 +128,14 @@ https://coderefinery.org/jupyter/motivation/
 
 ---
 ### 1.2 JupyterLab and notebook interface
-https://coderefinery.org/jupyter/interface/
+https://coderefinery.github.io/jupyter/interface/
 
 13. In my coderefinery environment, I get error with ´sphinx-build --version´. 
     `ImportError: cannot import name 'environmentfilter' from 'jinja2'`
     - I recognize this error. Give me a min to look for the workaround ...
     - Can you please try to find out what your sphinx version is? `sphinx-build --version` but that might fail. You can also try: `python -c "import sphinx; print(sphinx.__version__)"`
     - When did you make the enviornment? Did you make it from our environment.yml ?
-        - yes, it is the same environment that we used yesterday: https://coderefinery.org/installation/conda-environment/
+        - yes, it is the same environment that we used yesterday: https://coderefinery.github.io/installation/conda-environment/
           - sorry I forgot to follow up here. what sphinx version do you have?
 
 14. Why can't I see the CodeRefinery conda environment in JupyterLab? +1
@@ -144,7 +144,7 @@ https://coderefinery.org/jupyter/interface/
             - just a clarifying note to avoid confusion: `coderefinery` is an environment, `Python3` is the kernel in this case.
 
 15. (Im guessing this will be covered later but asking in case) What are the best practices/options for version control of Jupyter notebooks, when I started using them I noticed the git files became very large very fast
-    - `git` and `nbdime` is one solution. Other solutions are listed in a follow-up episode of the Jupyter lesson: https://coderefinery.org/jupyter/version-control/?highlight=nbdime
+    - `git` and `nbdime` is one solution. Other solutions are listed in a follow-up episode of the Jupyter lesson: https://coderefinery.github.io/jupyter/version-control/?highlight=nbdime
 
 16. How can I use a different environment when I have the JupyterLab tab opened?
     - You can install other *kernels* which are for other Python environments.  Looking...
@@ -167,7 +167,7 @@ https://coderefinery.org/jupyter/interface/
 				- Yeah, probably as you said.
 
 21. Where are the contents for this exercise, eg where is this markdown content copied from?
-    - Is it from here?: https://coderefinery.org/jupyter/interface/
+    - Is it from here?: https://coderefinery.github.io/jupyter/interface/
 
 22. I activated the coderefinery environment with conda but now I get the following message when trying to run jupyter-lab $ jupyter-lab
     ```failed to create process.```
@@ -197,13 +197,13 @@ https://coderefinery.org/jupyter/interface/
 
 ---
 ### 1.3 A first computational notebook
-https://coderefinery.org/jupyter/first-notebook/#a-first-computational-notebook
+https://coderefinery.github.io/jupyter/first-notebook/#a-first-computational-notebook
 
 #### Exercise until xx:49
 
-- https://coderefinery.org/jupyter/first-notebook/#an-example-computational-notebook
+- https://coderefinery.github.io/jupyter/first-notebook/#an-example-computational-notebook
 - Do what you can, nothing in the rest of the lesson depenends on this.
-- Optional exercises: Installing a kernel for your favorite language: https://coderefinery.org/jupyter/first-notebook/#notebooks-in-other-languages
+- Optional exercises: Installing a kernel for your favorite language: https://coderefinery.github.io/jupyter/first-notebook/#notebooks-in-other-languages
 
 
 26. Would you show the exercise on the twitch screen please? It saves me a window to look at...
@@ -251,7 +251,7 @@ https://coderefinery.org/jupyter/first-notebook/#a-first-computational-notebook
 
 ---
 ### 1.4 Notebooks and version control
-https://coderefinery.org/jupyter/version-control/
+https://coderefinery.github.io/jupyter/version-control/
 
 35. I usually use Jupyter notebook and not jupyter-lab. Are the things we go through now about version control the same for jupyter notebook?
     - Many are the same, the main difference is the user-interface.
@@ -419,7 +419,7 @@ git diff
 
 ---
 ### 1.5 Sharing notebooks
-https://coderefinery.org/jupyter/sharing/#sharing-notebooks
+https://coderefinery.github.io/jupyter/sharing/#sharing-notebooks
 
 66. I get `503 Service Temporarily Unavailable` when trying Binder +1+
     - Unfortunately binder has been a bit unstable today.
@@ -527,7 +527,7 @@ https://coderefinery.org/jupyter/sharing/#sharing-notebooks
     - People will often share the Github repo, and then the README has a link to binder (or whatever).  People can paste/clone the repository into whatever other service they want.
 
 
-83. How to make a page like "https://coderefinery.org/jupyter/extra-features/". Can it be done using github?
+83. How to make a page like "https://coderefinery.github.io/jupyter/extra-features/". Can it be done using github?
     - We are about to see in the upcoming documentation lesson!
     - But yes, this is git + Sphinx (next lesson) + Github Pages (next lesson).
 
@@ -548,10 +548,10 @@ https://coderefinery.org/jupyter/sharing/#sharing-notebooks
 
 ---
 ## 2. Documentation
-https://coderefinery.org/documentation/
+https://coderefinery.github.io/documentation/
 
 ### 2.1 Motivation and wishlist
-https://coderefinery.org/documentation/wishlist/#motivation-and-wishlist
+https://coderefinery.github.io/documentation/wishlist/#motivation-and-wishlist
 
 ### Poll
 
@@ -604,7 +604,7 @@ What would you like to see in the documentation of something you use?
 
 ---
 ### 2.2 Tools and solutions
-https://coderefinery.org/documentation/tools/#popular-tools-and-solutions
+https://coderefinery.github.io/documentation/tools/#popular-tools-and-solutions
 
 
 89. Any general guidelines what should always have docsrting and what not necessarily? I.e. I often found that all classes and some functions have them...+1 
@@ -613,14 +613,14 @@ https://coderefinery.org/documentation/tools/#popular-tools-and-solutions
 
 ---
 ### 2.3 In-code documentation
-https://coderefinery.org/documentation/in-code-documentation/#in-code-documentation
+https://coderefinery.github.io/documentation/in-code-documentation/#in-code-documentation
 
 Skipped, but feel free to go through the material above after the workshop. 
 
 ---
 ### 2.4 Writing readme files
 
-https://coderefinery.org/documentation/writing-readme-files/
+https://coderefinery.github.io/documentation/writing-readme-files/
 
 90. Do we *have* to scream `README`?
     - No, github does that automatically :smile:, but well. It is to some extent derived from too many people not reading the manual/readme. 
@@ -631,7 +631,7 @@ https://coderefinery.org/documentation/writing-readme-files/
 
 
 #### Exercises until xx:30
-https://coderefinery.org/documentation/writing-readme-files/#exercises
+https://coderefinery.github.io/documentation/writing-readme-files/#exercises
 
 Do exercises README-{1,2,3}, whatever interests you the most.
 
@@ -642,7 +642,7 @@ For getting **help in an exercise room**, please write the room name here or in 
 
 ---
 ### 2.5 Sphinx and Markdown
-https://coderefinery.org/documentation/sphinx/
+https://coderefinery.github.io/documentation/sphinx/
 
 91. When writing `sphinx-build --version `inside the coderefinery environment (already activated in conda), I get the following message: `bash: sphinx-build: command not found`
     - Try running `conda install sphinx
@@ -760,7 +760,7 @@ https://coderefinery.org/documentation/sphinx/
     
 114. How did you change the style to look like the CodeRefinery docs?
      - in `conf.py` look for "theme" and for the lessons we use one derived from `sphinx_rtd_theme` (the Read the Docs theme)
-     - Shameless advertisement: https://coderefinery.org/sphinx-lesson/ (but it's basically default sphinx featueres + sphinx_rtd_theme, nothing fancy here)
+     - Shameless advertisement: https://coderefinery.github.io/sphinx-lesson/ (but it's basically default sphinx featueres + sphinx_rtd_theme, nothing fancy here)
 
 
 114. Can you inlcude an exisiting html file in spinx? I'm reffering to an exisiting .html-page. Do you need to include anything in extensions and source_suffix (in conf.py)? 
@@ -790,7 +790,7 @@ https://coderefinery.org/documentation/sphinx/
 
 ---
 #### Exercises until xx:28
-https://coderefinery.org/documentation/sphinx/
+https://coderefinery.github.io/documentation/sphinx/
 Exercise Sphinx-2
 
 118. I did not quite understand the instruction after point 3, Experiment with the following Markdown syntax: (Thanks to hackMD, I can ask these kind of questions). What should we do at this step?
@@ -835,7 +835,7 @@ Exercise Sphinx-2
 
 125. I like the customized prompts in general; which tools do I use to do that?
      - This is a big topic, search the web and you can find plenty (or join our chat and find a particular instructor to ask)
-     - Some general info on what we do: https://coderefinery.org/manuals/instructor-tech-setup/ (but it hasn't been updated in a while)
+     - Some general info on what we do: https://coderefinery.github.io/manuals/instructor-tech-setup/ (but it hasn't been updated in a while)
 
 
 ---
@@ -877,7 +877,7 @@ Today was:
 - The README file example in breakout room works well only if all the attendees have experience with the same tool or are all used to python and can quickly read the given code. In our case none of these assumptions was verified, so it became a vague discussion mostly repeating what had been already stated in the main stream.
 - just as you had the exercise plan on top, maybe also write when breaks are planned?
 - How to publish the documentation, i.e. how to put the stuff generated by Sphinx into a real accessible website
-   - We had to skip this for time, but see https://coderefinery.org/documentation/gh_workflow/
+   - We had to skip this for time, but see https://coderefinery.github.io/documentation/gh_workflow/
    - EDIT: Thanks, I'll check that 
 - As mentioned above , say when type-along and when it is a demonstration. In fact, I would avoid demonstrations - we learn more if we do it too ( I appreaciate the time factor, but it is worth it to have less material but do it all in the type-along mode)
 - I can only speak for my group, but I would suggest revising the timing of the exercises (20 min for Jupyter notebook was too long; 10-15min for everything else was right/ could be longer )
@@ -886,7 +886,7 @@ Today was:
 #### Any other comments:
 - Please avoid highly customized prompts as they make it very difficult for users to see the analogy between their terminal and the one of the instructor. For example, Thor's prompt is very cool, indeed, but it increases the flow of information as well as the demands of interpretations for learners.+1
 
-- In the exercise https://coderefinery.org/documentation/gh_workflow/#exercise-deploy-sphinx-documentation-to-github-pages, there's a mistake in this step: "That’s it! Your site should now be live on `https://github.com/<myuser>/word-count/settings/pages` (replace username).". The link should be username.github.io/word-count/ 
+- In the exercise https://coderefinery.github.io/documentation/gh_workflow/#exercise-deploy-sphinx-documentation-to-github-pages, there's a mistake in this step: "That’s it! Your site should now be live on `https://github.com/<myuser>/word-count/settings/pages` (replace username).". The link should be username.github.io/word-count/ 
      - Thanks!
 
 

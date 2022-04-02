@@ -59,7 +59,7 @@ template = "page-with-toc.html"
 https://coderefinery.github.io/testing/
 
 ### 1.1 Motivation
-https://coderefinery.org/testing/motivation/
+https://coderefinery.github.io/testing/motivation/
 
 2. There is a wonderful homepage on bugs in softwares (unfortunately only in german): https://www5.in.tum.de/persons/huckle/bugs.html 
    Probably Google-Translate helps
@@ -71,7 +71,7 @@ https://coderefinery.org/testing/motivation/
         - what does this mean ?
     - I would add test for a function before rewriting it. Or right after I solved a difficult bug in it to make sure it does not come back.
 
-4. C++ code at https://coderefinery.org/testing/motivation/, what is there a specific reason to `return EXIT_SUCCESS;` instead of `return 0;` in `main()`?
+4. C++ code at https://coderefinery.github.io/testing/motivation/, what is there a specific reason to `return EXIT_SUCCESS;` instead of `return 0;` in `main()`?
     - I think just clarity. `EXIT_SUCCESS` is `0`, but if the reader does not know the convention they can still guess `EXIT_SUCCESS` means
     - Possibly on some system the success code is not 0?
 
@@ -123,7 +123,7 @@ https://coderefinery.org/testing/motivation/
 
 ----
 ### 1.2 Concepts
-https://coderefinery.org/testing/concepts/#concepts
+https://coderefinery.github.io/testing/concepts/#concepts
 
 9. If I want to test a function that gets as input a dataset, to test it I will have to have a whole test dataset?
     - for this it's good to have very small toy/testset datasets, yes! depends on whether you're talking about a data loading function (from disk; e.g. can it handle special cases? one-entry datasets? zero-entry?), or just a function that gets data (e.g. a numpy array)
@@ -139,7 +139,7 @@ https://coderefinery.org/testing/concepts/#concepts
 
 ---
 ### 1.3 Testing locally 
-https://coderefinery.org/testing/pytest/
+https://coderefinery.github.io/testing/pytest/
 
 
 12. Is pytest something from the developers of python or an external library?
@@ -169,7 +169,7 @@ https://coderefinery.org/testing/pytest/
 ---
 #### Exercise until xx:49
 Exercise Local-1
-https://coderefinery.org/testing/pytest/#exercise-pytest
+https://coderefinery.github.io/testing/pytest/#exercise-pytest
 
 17. What's the purpose of having multiple assert, does order matter?
     - Great question. It will fail on the first failing one. And maybe it would be better to not package multiple asserts into the same test so that we can see all failures and not only the first one.
@@ -203,7 +203,7 @@ https://coderefinery.org/testing/pytest/#exercise-pytest
       - in `vim`, I believe adding `syntax on` to your `~/.vimrc` could work.
 
 22. My understanding is that `pyTest` is tool for debugging python script. What if I want to debug script written in other languagues, e.g., `C++?`
-    - There is a list of tools in the course material at https://coderefinery.org/testing/quick-reference/
+    - There is a list of tools in the course material at https://coderefinery.github.io/testing/quick-reference/
     - If your language is not on the list, search the web for "unit testing framework" + language. Or write functions that run a function, check the output and error if it's wrong.
 
 23. How do you test, for example, data filtering functions? Or other more complex functions which you don't always know the results of? 
@@ -257,14 +257,14 @@ https://coderefinery.org/testing/pytest/#exercise-pytest
 
 ---
 ### 1.4 Automated testing
-https://coderefinery.org/testing/continuous-integration/#automated-testing
+https://coderefinery.github.io/testing/continuous-integration/#automated-testing
 
 32. Sorry, "follow the screen" == "type-along" or not? +1
     - `assert("follow the screen" == "type-along")` what is the answer? The webpage says "Type-along exercise".
     - Johan says please watch only.
 
 32. Aaah, where did he press???
--  https://coderefinery.org/testing/continuous-integration/#step-3-enable-automated-testing
+-  https://coderefinery.github.io/testing/continuous-integration/#step-3-enable-automated-testing
     - It somehow looks different in my github. i dont see the button
         - Could it be because you resized the brower's window?
             - No, there are several suggested options below, but not the button he had
@@ -309,7 +309,7 @@ https://coderefinery.org/testing/continuous-integration/#automated-testing
            - It can also be good if you want to get a review from someone else before merging.
 
 42. Would be nice to see the .yaml file again I think.
-    - You can see the default at https://coderefinery.org/testing/continuous-integration/
+    - You can see the default at https://coderefinery.github.io/testing/continuous-integration/
     - Thanks!
     - So you have to update it with the names of the branches that you gradually create, right? And then update it again when the branches are deleted?
         - The yaml has 
@@ -334,7 +334,7 @@ https://coderefinery.org/testing/continuous-integration/#automated-testing
 
 ---
 ### 1.5 Test design
-https://coderefinery.org/testing/test-design/
+https://coderefinery.github.io/testing/test-design/
 
 **Demo only, just watch and enjoy**
 
@@ -368,7 +368,7 @@ This uses Julia as an example language but applies to any language.  You should 
 
 ---
 #### Pathfinding 
-The fizzbuzz exercise is at https://coderefinery.org/testing/test-design/#test-driven-development
+The fizzbuzz exercise is at https://coderefinery.github.io/testing/test-design/#test-driven-development
 
 55. Use the modulus function (for dividing by 3 or 5). ;)
 
@@ -468,10 +468,10 @@ The fizzbuzz exercise is at https://coderefinery.org/testing/test-design/#test-d
 
 ---
 ##  2. Modular code development
-https://coderefinery.org/modular-type-along/
+https://coderefinery.github.io/modular-type-along/
 
 ### 2.1 Starting questions
-https://coderefinery.org/modular-type-along/questions/
+https://coderefinery.github.io/modular-type-along/questions/
 
 #### **What does “modular code development” mean for you?**
 - Organising your code, such that similar functionality is grouped and that individual parts can be used without the necessity to load everything. +1
@@ -566,11 +566,11 @@ https://coderefinery.org/modular-type-along/questions/
 
 ---
 ### 2.2 Learning topics
-https://coderefinery.org/modular-type-along/learning-outcomes/
+https://coderefinery.github.io/modular-type-along/learning-outcomes/
 
 ---
 ### 2.3 Our task
-https://coderefinery.org/modular-type-along/lesson/
+https://coderefinery.github.io/modular-type-along/lesson/
 
 72. Shitty weather in helsinki. If it snows one more time I am starting to cry
     - Are the palms on the beach shivering out of the cold?
@@ -787,7 +787,7 @@ This is even a standard for the output of test frameworks: find a bit more in ht
     
 
 125. Can you post the link to the command line interface instructor note?
-     - https://coderefinery.org/modular-type-along/instructor-guide/#command-line-interface
+     - https://coderefinery.github.io/modular-type-along/instructor-guide/#command-line-interface
      - Thank you!
 
 126. Is it possible to provide another course focusing on tn the materials of the second week with more details? like coderefinary.v2. covering more test, reproducibility and collaborative coding. another 6 sessions. +1 +1 +1
