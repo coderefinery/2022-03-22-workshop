@@ -52,7 +52,7 @@ Second exercise:
 
 
 ## 1. git-collab - day 3
-https://coderefinery.org/git-collaborative/
+https://coderefinery.github.io/git-collaborative/
 
 ### Tip
 Command to test that your SSH keys are being used correctly: `ssh -T git@github.com`
@@ -64,7 +64,7 @@ Command to test that your SSH keys are being used correctly: `ssh -T git@github.
 
 2. Could we get a short overview of the exercises I need to prep as an exercise lead?
    - I'm not sure, but I think it is what is in the hackmd.  We can set it up during the course I think, that is part of it.
-   - here's a list of the exercises: https://coderefinery.org/git-collaborative/exercises/
+   - here's a list of the exercises: https://coderefinery.github.io/git-collaborative/exercises/
 
 3. Should we have followed along for pull request? I got distracted by hackmd.
    - No, that was just a preview.  No one had to watch it, everything will be said again during the course.
@@ -184,7 +184,7 @@ https://coderefinery.github.io/git-collaborative/
     - You need to have your repository visibility set to public in order to protect branches with a free account.
 
 ### Exercise: 
-https://coderefinery.org/git-collaborative/centralized/#exercise-part-1-creating-a-pull-request
+https://coderefinery.github.io/git-collaborative/centralized/#exercise-part-1-creating-a-pull-request
 
 33. Where is the recorded version link again? I signed up last night, and accepted the invitation this morning.
     - https://github.com/cr-workshop-exercises/centralized-workflow-exercise-recorded
@@ -219,7 +219,7 @@ https://coderefinery.org/git-collaborative/centralized/#exercise-part-1-creating
 
 
 ### EXERCISE #1 until xx:25 (at xx:15 we will start going over it on-stream)
-https://coderefinery.org/git-collaborative/centralized/#exercise-part-1-creating-a-pull-request
+https://coderefinery.github.io/git-collaborative/centralized/#exercise-part-1-creating-a-pull-request
 Do the exercise until **step 8** included.
 
 If you have time, you can also try Centralized-3 exercise where you first create an issue and cross-reference
@@ -270,7 +270,7 @@ it in the commit message or the pull request title or form.
     - Please make sure it's not a typo in the file name. Do `git status` and see if you can see there are modified changes for this file. Also, make sure you have initialized the local dir as a git repo. Done already if you `git clone...`
 
 51. What is step 8? In the exercise it seems that the setps are A to E
-    - https://coderefinery.org/git-collaborative/centralized/#exercise-part-1-creating-a-pull-request - sections numbered 1-8
+    - https://coderefinery.github.io/git-collaborative/centralized/#exercise-part-1-creating-a-pull-request - sections numbered 1-8
 
 52. In the website it says: 'The `-u` or `--set-upstream` will connect the local branch with the newly created upstream/remote branch and track it.' Can you explain what is meant by the "newly created upstream/remote branch"? Is upstream and remote the same word here 
     - Usage example: `git push -u origin branchname`. `-u` means "map the local branch `<branchname>` to the branch with the same name, but on the remote repository `origin`". This way, next time you do a `git push` of commits on the branch `branchname` it is enough if you specify `git push`.
@@ -554,7 +554,7 @@ https://coderefinery.github.io/git-collaborative/distributed/
      - Fork: GitHub concept for connected repos online ( forking tells github that you are creating a copy of a repository in your online github storage, and lets it know that they are connected)
      - Clone: Make a copy of a repo from GitHub to your computer (you could push this to an "empty" repository you have online, but then the link to the original repository would be lost)
      - (there are slightly more general)
-     - Also see the workshop section https://coderefinery.org/git-collaborative/remotes/#commits-branches-repositories-forks-clones with terminology
+     - Also see the workshop section https://coderefinery.github.io/git-collaborative/remotes/#commits-branches-repositories-forks-clones with terminology
 
 102. Can we fork from the command line?
      - Not using the basic Git installation. But if you have the GitHub comand-line interface (CLI) tools you may do that. If you do not fork very often, I would not install Git CLI. But others find it very useful, please comment.
@@ -589,7 +589,7 @@ https://coderefinery.github.io/git-collaborative/distributed/
 109. At some point you mentioned what was needed to get a certificate of attendance. Could you repeat where to find the requirements?
      - Workshop webpage
         - I tried searching the webpage, but could not find it. Could you post link?
-            - https://coderefinery.org/2022-03-22-workshop/#certificates-and-credits
+            - https://coderefinery.github.io/2022-03-22-workshop/#certificates-and-credits
 
 110. i got this error. remote: Permission to coderefinery/template-forking-workflow-exercise.git denied to [name]. So what should i do?
      fatal: unable to access 'https://github.com/coderefinery/template-forking-workflow-exercise/': The requested URL returned error: 403

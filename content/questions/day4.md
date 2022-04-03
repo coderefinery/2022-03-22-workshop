@@ -70,7 +70,7 @@ https://coderefinery.github.io/reproducible-research/
 https://coderefinery.github.io/reproducible-research/motivation/
 
 3. I could not spot the instructions to download and install Snakemake. Can you please direct to those?
-     - it is part of the Conda environment (https://coderefinery.org/installation/conda-environment/) so if you have installed that one, then you have snakemake
+     - it is part of the Conda environment (https://coderefinery.github.io/installation/conda-environment/) so if you have installed that one, then you have snakemake
          -  working with conda 4.12.0
  and snakemake is not listed in `conda list` alas
      - we will later also discuss what Conda environments are but if you want to see what is inside the one we provide: https://github.com/coderefinery/software/blob/main/environment.yml
@@ -269,7 +269,7 @@ which is not quite uniform as we may wish...
 
 
 37. Where do we find the .yml file we should create our new CodeRefinery environment from?+1
-     - Follow https://coderefinery.org/installation/conda-environment/
+     - Follow https://coderefinery.github.io/installation/conda-environment/
      - The file itself is actually here: https://github.com/coderefinery/software/blob/main/environment.yml
 
 38. Can we activate an environment without deactivating before or do we have to deactivate, then activate?+1
@@ -281,7 +281,7 @@ which is not quite uniform as we may wish...
 
 
 ### Exercises until xx:05, then break.
-### [Dependencies-2](https://coderefinery.org/reproducible-research/dependencies/#exercise-exploring-conda-environments)
+### [Dependencies-2](https://coderefinery.github.io/reproducible-research/dependencies/#exercise-exploring-conda-environments)
 
 Explore most commands there, if you can't finish it all there is no problem
 
@@ -290,7 +290,7 @@ done: oooooooooo
 need more time: ooooooo
 not trying: oo
 
-39. Why after doing [this step](https://coderefinery.org/installation/conda/#setting-conda-path), I cannot find my Anaconda Prompt anymore? And after some time, I have to do it again because git bash does not recognize 'conda' anymore. What could be the reason?
+39. Why after doing [this step](https://coderefinery.github.io/installation/conda/#setting-conda-path), I cannot find my Anaconda Prompt anymore? And after some time, I have to do it again because git bash does not recognize 'conda' anymore. What could be the reason?
     - I'm not sure, we would need to look.  Can we look later, or find someone local/in Zoom/etc to as''k?
     - I am not sure whats your problem exactly, but I realized that one has to be careful with the "conda init" command. it modifies the .bashrc file and comments the line with the export path command. Also, for some reason the conda activate command did not work for me (although `PATH` was set up correctly) and I needed to go to the env folder and use "source activate ...."
 
@@ -378,7 +378,7 @@ not trying: oo
     - If you have cloned the repository, don't worry.
     - No, I haven't. I lost the track there.
         - Go to https://github.com//coderefinery/word-count. Use the green "Use this template" button to create a repository. Then clone the new repository.
-        - steps also at https://coderefinery.org/reproducible-research/workflow-management/, in the Exercise preparation section
+        - steps also at https://coderefinery.github.io/reproducible-research/workflow-management/, in the Exercise preparation section
 
 > HPC: High Performance Computing 
 
@@ -518,7 +518,7 @@ I am:
 86. I needed to run `docker pull` as root, otherwise I got `permission denied`...
     - You can give permission to your user to do this (to be discussed later).  All these permission problems are one reason we don't have an exercise about this!
     - [Run Docker when not root](https://docs.docker.com/engine/security/rootless/)
-	- For more Docker material, see also [extra lesson](https://coderefinery.org/reproducible-research/docker/)
+	- For more Docker material, see also [extra lesson](https://coderefinery.github.io/reproducible-research/docker/)
 
 
 ---
@@ -537,7 +537,7 @@ https://coderefinery.github.io/reproducible-research/sharing/
     - Agree; on the other hand - if it's hosted in GitHub or similar platform, it should exist there "forever", shouldn't it?
 
 ### Exercise until xx:25
-[Sharing-1](https://coderefinery.org/reproducible-research/sharing/#exercise-connecting-repositories-to-zenodo)
+[Sharing-1](https://coderefinery.github.io/reproducible-research/sharing/#exercise-connecting-repositories-to-zenodo)
 Do what you can, no problem if you can't/run out of time.
 
 
@@ -597,7 +597,7 @@ Then social coding
 ---
 ## 2. [Social coding](https://coderefinery.github.io/social-coding/)
 
-### 2.1 [Social coding in general](https://coderefinery.org/social-coding/social_coding/)
+### 2.1 [Social coding in general](https://coderefinery.github.io/social-coding/social_coding/)
 
 
 ### Discussion: basics of sharing
@@ -701,9 +701,9 @@ What reasons are there to not share?
      - Yes. In particular sharing with your future you. Do it :-) I have lost access to some of my scripts because I accidentally deleted them or for license reasons.
 
 ---
-### 2.2 [Code reusability](https://coderefinery.org/social-coding/social_coding/#code-reusability)
+### 2.2 [Code reusability](https://coderefinery.github.io/social-coding/social_coding/#code-reusability)
 
-### Exercise: [Social-2](https://coderefinery.org/social-coding/social_coding/#what-contributes-to-reusability)
+### Exercise: [Social-2](https://coderefinery.github.io/social-coding/social_coding/#what-contributes-to-reusability)
 
 [Recipe repository](https://github.com/coderefinery/recipe)
 
@@ -729,7 +729,7 @@ What can be added to our recipe repository to make it more reusable?
      - correct. is it 70 years? same applies (depending on coutry) to software but let's see whether we can still compile and run the code we write today in 70 years. for books this is known territory but for software we are in a new territory here.
 
 
-### [Exercise: derivative works](https://coderefinery.org/social-coding/licensing/#derivative-work)
+### [Exercise: derivative works](https://coderefinery.github.io/social-coding/licensing/#derivative-work)
 
 1. Download some code from a website and add on to it
 2. Download some code and use one of the functions in your code
@@ -811,7 +811,7 @@ What can be added to our recipe repository to make it more reusable?
 124. How is a copyright automatically generated? Once you saved it as jupyter notebook or something else?
      - Whenever you write something, you have copyright to it. It does not need to be published in principle. However to prove that someone has infringed your copyright, you need to show they could have seen your work.
 
-### [Exercises: licensing](https://coderefinery.org/social-coding/licensing/#exercises-licensing)
+### [Exercises: licensing](https://coderefinery.github.io/social-coding/licensing/#exercises-licensing)
 
 **Licensing-2: Consider some common licensing situations**
 

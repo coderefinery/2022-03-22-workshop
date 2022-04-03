@@ -79,7 +79,7 @@ What should we do differently today?
     - Refresh the page when needed.  Switch to edit mode once and then back.  But these aren't perfect, so if you notice lag let us know and we will make it shorter.
 
 2. Can you give a broad explanation about how git works? Inner dynamics, etc.
-    - You may check our ["under the hood lesson"](https://coderefinery.org/git-intro/under-the-hood/) that shows what happens in the .git/ directory as a result of different `git` commands.
+    - You may check our ["under the hood lesson"](https://coderefinery.github.io/git-intro/under-the-hood/) that shows what happens in the .git/ directory as a result of different `git` commands.
     - Great question. Maybe we can comment on this during start. It stores entire state of the project every time, but it does so very efficiently by storing the data in a tree structure, reusing existing data. It does not store differences. Differences are computed. Branches are pointers (a branch is a file with a 40-char string in it).
 
 
@@ -100,7 +100,7 @@ What should we do differently today?
 https://coderefinery.github.io/git-intro/
 
 ### 1.1 Sharing repositories online
-https://coderefinery.org/git-intro/remotes/
+https://coderefinery.github.io/git-intro/remotes/
 
 
 6. Does the name of online repository has to correspond to the local one?
@@ -324,7 +324,7 @@ https://coderefinery.org/git-intro/remotes/
 50. It might be good to notice that even if you change the repository from public to private it will not delete the forks if someone has forked it.
     
 ### 1.2 Inspecting history
-https://coderefinery.org/git-intro/archaeology/
+https://coderefinery.github.io/git-intro/archaeology/
 
 51. If one uses `git grep`, can we use extended regular expressions?
     - you can use regular expressions, not sure about extended regular expressions
@@ -422,7 +422,7 @@ https://coderefinery.org/git-intro/archaeology/
     - `git grep` only searches in files tracked by git, it may be significantly faster than `grep`
 
 68. Does `git log -S` only search in the commit messages or also within the documents?  
-    I refer to https://coderefinery.org/git-intro/archaeology/#git-log-s-to-search-through-the-history-of-changes and *While git grep searches the current state of the repository, it is also possible to search through all changes for “sometext”*
+    I refer to https://coderefinery.github.io/git-intro/archaeology/#git-log-s-to-search-through-the-history-of-changes and *While git grep searches the current state of the repository, it is also possible to search through all changes for “sometext”*
     - `git log -S` doesn't search commit messages, it searches in tracked files. Useful to find when a particular code line was introduced and/or removed
     - it is unfortunate that this look so similar to `git log` :| To me it suggests searching in the log (which is wrong!) +1
         - It returns commit messages, though!
@@ -507,7 +507,7 @@ https://coderefinery.org/git-intro/archaeology/
 
 82. How do I search when using git annotate?
     - Type `/`, then type the search term and press Enter
-    - also have a look here: https://coderefinery.org/git-intro/archaeology/#git-annotate-to-annotate-code-with-commit-metadata
+    - also have a look here: https://coderefinery.github.io/git-intro/archaeology/#git-annotate-to-annotate-code-with-commit-metadata
 
 
 83. Want to check which commands I have used with git and better yet save them for some future use (without duplicates)
@@ -624,21 +624,21 @@ https://coderefinery.org/git-intro/archaeology/
      - see #88, `git log -S` looks for changes in the exact matching string. And the search sring actually didn't change in the commits noted `git annotate` only additional things (spaces) in the line changed. 
 
 106. What webpage are we looking at right now?
-     - https://coderefinery.org/git-intro/recovering/
+     - https://coderefinery.github.io/git-intro/recovering/
 
 
 107. I am getting this error when i try to run "$ python get_pi.py"
-      - Either Python is not installed, or the terminal cannot find it. See installation instruction here: https://coderefinery.org/installation/conda/ and then https://coderefinery.org/installation/conda-environment/
+      - Either Python is not installed, or the terminal cannot find it. See installation instruction here: https://coderefinery.github.io/installation/conda/ and then https://coderefinery.github.io/installation/conda-environment/
         - Miniconda comes with Python, so installing it and creating an environment is enough to get Python.
             - I also get this error, but I have already miniconda installed.
-                - hopefully this helps: https://coderefinery.org/installation/conda/#setting-path-to-conda-from-your-terminal-shell
+                - hopefully this helps: https://coderefinery.github.io/installation/conda/#setting-path-to-conda-from-your-terminal-shell
 
 108. What if I stage, and then clean only the local repository? What will happen to the stagged?
      - staging essentially writes the changed files to the git database (creates object for them). But without being commited, they will not be part of any branch. So (but I'm not entirely certain), if you have used `git add file1` and then delete file 1 (not with `git rm` but with something outside git), you could recover the file or still commit it and it will be in the state that it was before you deleted it. If you `git add` it again after you deleted it, git will consider it as deleted and the next commit will contain a deletion of the file.
 
 
 ### 1.3 Undoing and recovering
-https://coderefinery.org/git-intro/recovering/
+https://coderefinery.github.io/git-intro/recovering/
 
 109. Does Staged mean commit? I forgot.
      - Stage means "added" i.e. `git add` stages a file for a commit.
@@ -666,7 +666,7 @@ https://coderefinery.org/git-intro/recovering/
         - Ok thanks, so that won't necessarily make a mess although the most recent commit might be dependent on changes made in the two previous commits?
 
 114. `Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Manage App Execution Aliases.` it could be that my git bash cant find python... I have miniconda installed any solution for this?
-     - hopefully this helps: https://coderefinery.org/installation/conda/#setting-path-to-conda-from-your-terminal-shell
+     - hopefully this helps: https://coderefinery.github.io/installation/conda/#setting-path-to-conda-from-your-terminal-shell
 
 
 115. I spaced out for a sec, what is `git revert -n master~..master~2` supposed to do?
@@ -795,13 +795,13 @@ https://coderefinery.org/git-intro/recovering/
 
 139. Could you paste where are we in the schedule? Will there be another exercise session?
      - no more exercise session
-     - after break we will discuss https://coderefinery.org/git-intro/staging-area/ and https://coderefinery.org/git-intro/level/
+     - after break we will discuss https://coderefinery.github.io/git-intro/staging-area/ and https://coderefinery.github.io/git-intro/level/
 
 140. In some cases this file <<.ingredients.txt.swp>> appears as unstagged. Why does this happen?
     - Usually, these `.*swp` are temporary files created by your editor. It tells "I am modifying this file, don't touch it". I usually gitignore them, i.e. write `*.swp` in `.gitignore`
 ---
 ### 1.4 Using the Git staging area
-https://coderefinery.org/git-intro/staging-area/
+https://coderefinery.github.io/git-intro/staging-area/
 
 
 141. Can you change the text of older commits?
